@@ -1,0 +1,46 @@
+--- 
+title: Blog
+layout: default 
+---
+<head>
+	<meta property="og:title" content="Winter Solace" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="Winter Solace is an action-adventure rpg where you are a vampire wizard, trying to make friends during a civil war." />
+	<meta property="og:image" content="http://www.wintersolacegame.com/images/social.png" />
+	<meta property="og:image:width" content="1500">
+	<meta property="og:image:height" content="900">
+</head>
+
+<div class="center-col">
+
+</div>
+
+<div class="flex-all center-col post-list">
+
+	<ul> 
+	{% for post in site.posts %} 
+		<li> 
+			<div class="post-preview">
+
+				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+				</div>
+
+				<div class="content-preview">
+					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+					<small>{{ post.date | date: "%-d %B %Y" }}</small>
+					<div class="text-preview">
+						<p>{{ post.content | strip_html | truncate: 160 }}</p>
+						<a class="triangle-link" href="{{post.url}}">▶▶▶</a>
+					</div>
+				</div>
+			</div>
+
+
+		</li> 
+	{% endfor %} 
+	</ul>
+</div>
+
+<div class="subscription-box center-col flex-all">
+	{% include mailchimp-signup.html %}
+</div>

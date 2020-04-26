@@ -55,36 +55,9 @@ body{
 	letter-spacing: 0em;
 	line-height: 1.7em;
 	font-size: 1.1em;
-	color: #292929;
+	color: #2e142c;
 	/*min-height: 100vh;*/
-	background-color: #0d0f27;
-}
-
-/*snow keyframes*/
-@-webkit-keyframes snow {
- 0% {background-position: 0px 0px;}
- 100% {background-position: -300px 300px, -200px 200px, -100px 100px;}
-}
-
-@keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: -300px 300px, -200px 200px, -100px 100px;}
-}
- 
-@-moz-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
-100% {background-position: -300px 300px, -200px 200px, -100px 100px;}
-}
- 
-@-webkit-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 50% {background-color:#b4cfe0;}
- 100% {background-position: -300px 300px, -200px 200px, -100px 100px;}
-}
- 
-@-ms-keyframes snow {
-0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
- 100% {background-position: 500px 1000px, 400px 400px, 300px 300px;}
+	background-color: white;
 }
 
 h1{
@@ -116,20 +89,20 @@ p{
 
 small, .text_small {
 	font-size: 0.75em;
-	color: #8f909b;
+	color: #2e142c;
 }
 
 a{
-	color: #d83f41;
+	color: #de2a7e;
 	text-decoration: none;
 }
 
-a:hover{
-	opacity: 70%;
+p a:hover{
+	color: #fc5b96;
 }
 
 a:visited{
-	color: #d83f41;
+	color: #a80f68;
 }
 
 img{
@@ -153,7 +126,7 @@ label{
 	font-size: 1em;
 	font-family: Georgia, serif;
 	letter-spacing: 0em;
-	background-color: #d83f41;
+	background-color: #de2a7e;
 	color: white;
 	width: 100%;
 	border: none;
@@ -161,7 +134,7 @@ label{
 }
 
 .button:hover{
-	background-color: #9d3259;
+	background-color: #fc5b96;
 }
 
 .checkmark{
@@ -196,59 +169,14 @@ label{
 	color: white;
 }
 
-.snow{
-	width: 100%;
-	height: 900px;
-	position: absolute;
-	top: 0px;
-	z-index: -10;
-
-	background-image: url('/images/snow3.png'), url('/images/snow2.png'), url('/images/snow1.png');
-	-webkit-animation: snow 20s linear infinite;
-
-	-webkit-animation: snow 20s linear infinite;
- 	-moz-animation: snow 20s linear infinite;
- 	-ms-animation: snow 20s linear infinite;
- 	animation: snow 20s linear infinite;
-
- 	-webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-	mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
-}
-
-.hero-front{
-	position: absolute;
-	top: 0px;
-	width: 100%;
-	height: 900px;
-	display: flex;
-	z-index: -5;
-}
-
-.hero-front-image{
-	background-image: url('/images/hero-front.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	flex:0 1 1500px;
-}
-
-.hero-back-image{
-	background-image: url('/images/hero-back.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	flex:0 1 1500px;
-}
-
 .hero-side{
 	flex: 1 1;
-	background-color: #0d0f27;
+	background-color: #2e142c;
 }
 
 .center-col{
 	max-width: 720px;
 	margin: auto;
-	/*padding:0 20px;*/
 	background-color: white;
 }
 
@@ -381,7 +309,6 @@ label{
 }
 
 .image-preview{
-	/*width: 252px;*/
 	height: 155px;
 	background-position: center;
 	background-size: cover;
@@ -436,7 +363,7 @@ label{
 }
 
 .change{
-	  /*background-color: black;*/
+	
 }
 
 .change .bar1 {

@@ -376,7 +376,7 @@ li .content-preview{
 
 #nav-column{
 	position: fixed;
-	top: 260px;
+	top: 230px;
 	width: 300px;
 	padding-bottom: 1em;
 	display: flex;
@@ -481,7 +481,7 @@ a img:hover{
 
 	#nav-column{
 		width: 150px;
-		top: 210px;
+		top: 190px;
 	}
 
 	.site-intro{

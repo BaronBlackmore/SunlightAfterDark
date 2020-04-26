@@ -11,19 +11,17 @@ layout: default
 	<meta property="og:image:height" content="900">
 </head>
 
-<div class="center-col">
-
-</div>
-
 <div class="flex-all center-col post-list">
+	<h5>Blog Posts</h5>
+	<div class="line"></div>
 
-	<ul> 
+	<ul>
 	{% for post in site.posts %} 
 		<li> 
 			<div class="post-preview">
 
-				<a href="{{post.url}}"><div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-				</div></a>
+				<div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+				</div>
 
 				<div class="content-preview">
 					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
@@ -34,11 +32,10 @@ layout: default
 					</div>
 				</div>
 			</div>
-
-
 		</li> 
 	{% endfor %} 
 	</ul>
+	
 </div>
 
 <div class="subscription-box center-col flex-all">

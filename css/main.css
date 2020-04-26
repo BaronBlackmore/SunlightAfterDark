@@ -397,6 +397,11 @@ li .content-preview{
 	display: none;
 }
 
+.site-intro{
+	position: fixed;
+	width: 300px;
+}
+
 .social-images img{
 	width: 50px;
 	padding: 5px;
@@ -469,6 +474,10 @@ a img:hover{
 		width: 150px;
 	}
 
+	.site-intro{
+		width: 150px;
+	}
+
 }
 
 @media(max-width: 800px){
@@ -502,6 +511,10 @@ a img:hover{
 		left: 0;
 		width: 100%;
 		background-color: #ffdfee;
+	}
+
+	.site-intro{
+		width: 100%;
 	}
 
 	.post-title{

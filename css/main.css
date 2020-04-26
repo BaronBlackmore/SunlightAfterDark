@@ -376,7 +376,9 @@ li .content-preview{
 
 #nav-column{
 	position: fixed;
+	top: 200px;
 	width: 300px;
+	padding-bottom: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -400,6 +402,10 @@ li .content-preview{
 .site-intro{
 	position: fixed;
 	width: 300px;
+}
+
+.site-intro img{
+	width: 100%;
 }
 
 .social-images img{
@@ -461,7 +467,6 @@ a img:hover{
 		padding: 0.5em 0 0.3em 0;
 	}
 
-
 @media(min-width: 801px) and (max-width: 1120px){
 	.social-images{
 		flex-direction: column;
@@ -472,6 +477,7 @@ a img:hover{
 
 	#nav-column{
 		width: 150px;
+		top: 100px;
 	}
 
 	.site-intro{
@@ -481,6 +487,10 @@ a img:hover{
 }
 
 @media(max-width: 800px){
+
+	.no-mobile{
+		display: none;
+	}
 
 	#whole-page{
 		flex-direction: column;

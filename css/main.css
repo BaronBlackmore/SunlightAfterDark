@@ -197,7 +197,7 @@
 	height: 1px;
 	width: 100%;
 	background-color: pink;
-	margin-bottom:20px 0;
+	margin-bottom:1em;
 }
 
 .flex-all{
@@ -277,11 +277,11 @@
 }
 
 .post-list{
-	padding: 2em 0;
+	/*padding: 2em 0;*/
 }
 
 .post-list li{
-	padding: 1em;
+	padding: 1em 0;
 }
 
 .post-preview{
@@ -316,7 +316,7 @@ li .content-preview{
 }
 
 .latest-post .content-preview{
-	padding-bottom: 20px;
+	padding-bottom: 1em 0;
 }
 
 .triangle-link{

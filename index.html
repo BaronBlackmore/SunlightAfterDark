@@ -22,8 +22,8 @@ layout: default
 	{% for post in site.posts limit:1 %} 
 	<div class="latest-post">
 
-		<div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-		</div>
+		<a href=""><div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+		</div></a>
 
 		<div class="content-preview">
 			<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>

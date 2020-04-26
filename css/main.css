@@ -351,8 +351,9 @@
 #nav{
 	display: flex;
 	background-color: yellow;
-	flex: 1 1 300px;
+	flex: 0 0 300px;
 	justify-content: center;
+	flex-direction: column;
 }
 
 #nav-column{

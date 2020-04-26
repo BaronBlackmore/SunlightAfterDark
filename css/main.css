@@ -452,7 +452,7 @@ li .content-preview{
 	}
 
 
-@media(min-width: 901px) and (max-width: 1120px){
+@media(min-width: 801px) and (max-width: 1120px){
 	.social-images{
 		flex-direction: column;
 	}
@@ -465,11 +465,11 @@ li .content-preview{
 	}
 
 	#nav img{
-		width: 300px;
+		width: 150px;
 	}
 }
 
-@media(max-width: 900px){
+@media(max-width: 800px){
 
 	#whole-page{
 		flex-direction: column;

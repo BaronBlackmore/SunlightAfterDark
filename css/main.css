@@ -358,6 +358,7 @@
 
 #nav-column{
 	display: flex;
+	background-color: green;
 	flex-direction: column;
 	align-items: center;
 	transition: 0.5s;
@@ -444,10 +445,16 @@
 		height: 60px;
 		display: flex;
 		justify-content: space-between;
+		flex-direction: row;
 		align-items: center;
 		height: 60px;
 		padding: 0 20px;
-		flex:1 1 60px;
+		flex:0 auto;
+	}
+
+	#nav-column{
+		position: absolute;
+		top: -4em;
 	}
 
 	.post-title{
@@ -497,35 +504,8 @@
 		padding: 1em;
 	}
 
-	.no-mobile a{
-		display: none !important;
-	}
-
 	.image-preview, .post-head-image{
 		flex: 0 0 156px;
 	}
-
-	.snow{
-		height: 450px;
-	}
-
-	.hero-front{
-		height: 450px;
-	}
-
-	.hero-front-image{
-		flex:0 1 750px;
-	}
-
-	.hero-back-image{
-		flex:0 1 750px;
-	}
-
-	.frontpage-content{
-		margin-top:350px;
-	}
-
-
-
 }
 

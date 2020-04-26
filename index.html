@@ -13,28 +13,47 @@ layout: default
 
 
 
-<div class="center-col frontpage-content">
+<div class="center-col">
 	<!-- "Latest post" -->
-	<h5>Latest Post</h5>
+	<h5>Latest Posts</h5>
 	<div class="line"></div>
 		
 	{% for post in site.posts limit:1 %} 
-	<div class="post-preview">
 
-		<div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-		</div>
+	<div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+	</div>
 
-		<div class="content-preview">
-			<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
-			<small>{{ post.date | date: "%-d %B %Y" }}</small>
-			<div class="text-preview">
-				<p>{{ post.content | strip_html | truncate: 160 }}</p>
-				<a class="triangle-link" href="{{post.url}}">▶▶▶</a>
-			</div>
+	<div class="content-preview">
+		<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+		<small>{{ post.date | date: "%-d %B %Y" }}</small>
+		<div class="text-preview">
+			<p>{{ post.content | strip_html | truncate: 160 }}</p>
+			<a class="triangle-link" href="{{post.url}}">▶▶▶</a>
 		</div>
 	</div>
+
 	{% endfor %} 
 
 
-	<!-- latest blog post in full -->
+
+	<!-- previous two posts -->
+	{% for post in site.posts offset:1 limit:2 %} 
+		<li> 
+			<div class="post-preview">
+
+				<div class="image-preview" style="background-image: url('/images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+				</div>
+
+				<div class="content-preview">
+					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+					<small>{{ post.date | date: "%-d %B %Y" }}</small>
+					<div class="text-preview">
+						<p>{{ post.content | strip_html | truncate: 160 }}</p>
+						<a class="triangle-link" href="{{post.url}}">▶▶▶</a>
+					</div>
+				</div>
+			</div>
+		</li> 
+	{% endfor %} 
+
 </div>

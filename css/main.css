@@ -53,10 +53,10 @@
 	}
 
 	body{
-		font-family: Tahoma, serif;
+		font-family: Roboto, serif;
 		letter-spacing: 0em;
-		line-height: 1.7em;
-		font-size: 1.1em;
+		line-height: 1.5em;
+		font-size: 1em;
 		color: #2e142c;
 		/*min-height: 100vh;*/
 		background-color: white;
@@ -97,7 +97,7 @@
 	label{
 	font-size: 1em;
 	padding: 0.5em 0;
-	font-family: Tahoma, serif;
+	font-family: Roboto, serif;
 	letter-spacing: 0em;
 	}
 
@@ -130,7 +130,7 @@
 .button{
 	padding: 0.5em 0;
 	font-size: 1em;
-	font-family: Tahoma, serif;
+	font-family: Roboto, serif;
 	letter-spacing: 0em;
 	background-color: #de2a7e;
 	color: white;
@@ -183,13 +183,16 @@
 	max-width: 720px;
 	margin: auto;
 	background-color: white;
-}
-
-.frontpage-content{
-	background-color: transparent;
 	padding: 0 20px;
 	display: flex;
 	flex-direction: column;
+}
+
+.line{
+	height: 1px;
+	width: 100%
+	background-color: pink;
+	padding:20px 0;
 }
 
 .flex-all{

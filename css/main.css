@@ -56,10 +56,11 @@
 		font-family: Roboto, serif;
 		letter-spacing: 0em;
 		line-height: 1.5em;
-		font-size: 1em;
+		font-size: 1.2em;
 		color: #553e53;
 		/*min-height: 100vh;*/
 		background-color: white;
+		font-weight: 300;
 	}
 
 	h1{
@@ -112,6 +113,10 @@
 
 	a:visited{
 		color: #a80f68;
+	}
+
+	a:visited:hover{
+		color: #fc5b96;	
 	}
 
 	img{
@@ -190,7 +195,7 @@
 
 .line{
 	height: 1px;
-	width: 100%
+	width: 100%;
 	background-color: pink;
 	margin-bottom:20px 0;
 }
@@ -299,15 +304,19 @@
 .text-preview p{
 	padding: 0 0 0.5em 0;
 }
-
+/*
 .latest-post{
 	padding-bottom: 20px;
-}
+}*/
 
-.content-preview{
+li .content-preview{
 	display: flex;
 	flex-direction: column;
 	padding-left: 15px;
+}
+
+.latest-post .content-preview{
+	padding-bottom: 20px;
 }
 
 .triangle-link{
@@ -357,7 +366,7 @@
 
 #nav{
 	display: flex;
-	background-color: ##ffdfee;
+	background-color: #ffdfee;
 	flex: 0 0 300px;
 	/*justify-content: center;*/
 	flex-direction: column;
@@ -373,7 +382,7 @@
 }
 
 #nav-column a{
-	color: white;
+	/*color: white;*/
 }
 
 #mobile-nav-shade{

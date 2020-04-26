@@ -186,7 +186,6 @@
 }
 
 .frontpage-content{
-	margin-top:580px;
 	background-color: transparent;
 	padding: 0 20px;
 	display: flex;
@@ -218,6 +217,7 @@
 
 #main{
 	min-height: 100vh;
+	width: 100%;
 }
 
 .post-title{
@@ -350,10 +350,11 @@
 
 #nav{
 	display: flex;
-	background-color: yellow;
+	background-color: #de2a7e;
 	flex: 0 0 300px;
-	justify-content: center;
+	/*justify-content: center;*/
 	flex-direction: column;
+	padding: 20px;
 }
 
 #nav-column{
@@ -363,6 +364,10 @@
 	align-items: center;
 	transition: 0.5s;
 	z-index: 5;
+}
+
+#nav-column a{
+	color: white;
 }
 
 #mobile-nav-shade{
@@ -454,7 +459,9 @@
 
 	#nav-column{
 		position: absolute;
-		top: -4em;
+		top: -11em;
+		left: 0;
+		width: 100%;
 	}
 
 	.post-title{

@@ -57,7 +57,7 @@
 		letter-spacing: 0em;
 		line-height: 1.5em;
 		font-size: 1em;
-		color: #2e142c;
+		color: #553e53;
 		/*min-height: 100vh;*/
 		background-color: white;
 	}
@@ -192,7 +192,7 @@
 	height: 1px;
 	width: 100%
 	background-color: pink;
-	padding:20px 0;
+	margin-bottom:20px 0;
 }
 
 .flex-all{
@@ -300,6 +300,10 @@
 	padding: 0 0 0.5em 0;
 }
 
+.latest-post{
+	padding-bottom: 20px;
+}
+
 .content-preview{
 	display: flex;
 	flex-direction: column;
@@ -334,7 +338,7 @@
 	.bar1, .bar2, .bar3 {
 	  width: 30px;
 	  height: 3px;
-	  background-color: #white;
+	  background-color: white;
 	  margin: 4px 0;
 	  transition: 0.2s;
 	}
@@ -353,7 +357,7 @@
 
 #nav{
 	display: flex;
-	background-color: #de2a7e;
+	background-color: ##ffdfee;
 	flex: 0 0 300px;
 	/*justify-content: center;*/
 	flex-direction: column;
@@ -362,7 +366,6 @@
 
 #nav-column{
 	display: flex;
-	background-color: green;
 	flex-direction: column;
 	align-items: center;
 	transition: 0.5s;

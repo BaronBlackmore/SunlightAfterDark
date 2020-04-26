@@ -93,6 +93,7 @@
 	small, .text_small {
 		font-size: 0.75em;
 		color: #807178;
+		padding-bottom: 0.5em;
 	}
 
 	label{
@@ -374,6 +375,8 @@ li .content-preview{
 }
 
 #nav-column{
+	position: fixed;
+	width: 300px;
 	display: flex;
 	background-color: #ffdfee;
 	flex-direction: column;
@@ -388,7 +391,7 @@ li .content-preview{
 
 #mobile-nav-shade{
 	background-color: transparent;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	top: 0;
 	width: 100%;

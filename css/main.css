@@ -124,9 +124,8 @@
 	display: flex;
 	flex-direction: row;
 	max-width: 1400px;
+	margin:auto;
 }
-
-
 
 .button{
 	padding: 0.5em 0;
@@ -353,15 +352,10 @@
 	display: flex;
 	background-color: yellow;
 	flex: 1 1 300px;
+	justify-content: center;
 }
 
 #nav-column{
-	position: absolute;
-	/*top: -19em;*/
-	left: 0px;
-	height: 100vh;
-	width: 100%;
-	background-color: white;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -433,8 +427,26 @@
 
 @media(max-width: 660px){
 
+	#whole-page{
+		flex-direction: column;
+	}
+
+	#main{
+		min-height: 0;
+	}
+
 	.hamburger-icon{
 		display: flex;
+	}
+
+	#nav{
+		height: 60px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 60px;
+		padding: 0 20px;
+		flex:1 1 60px;
 	}
 
 	.post-title{

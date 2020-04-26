@@ -44,8 +44,8 @@ title: "none"
 	   
 		<div class="post-preview" style="flex-direction: column;">
 			<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-			</div>
+			<a href="{{post.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			</div></a>
 
 			<div class="content-preview">
 				<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
@@ -66,8 +66,8 @@ title: "none"
 		
 		<div class="post-preview" style="flex-direction: column;">
 			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ▶▶▶</h5></a>
-			<div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-			</div>
+			<a href="{{post.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			</div></a>
 
 			<div class="content-preview">
 				<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>

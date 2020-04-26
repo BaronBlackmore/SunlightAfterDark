@@ -197,7 +197,7 @@
 .line{
 	height: 1px;
 	width: 100%;
-	background-color: pink;
+	background-color: #de2a7e;
 	margin-bottom:1em;
 }
 
@@ -376,7 +376,7 @@ li .content-preview{
 
 #nav-column{
 	position: fixed;
-	top: 200px;
+	top: 240px;
 	width: 300px;
 	padding-bottom: 1em;
 	display: flex;
@@ -467,6 +467,10 @@ a img:hover{
 		padding: 0.5em 0 0.3em 0;
 	}
 
+.no-desktop{
+	display: none;
+}
+
 @media(min-width: 801px) and (max-width: 1120px){
 	.social-images{
 		flex-direction: column;
@@ -477,7 +481,7 @@ a img:hover{
 
 	#nav-column{
 		width: 150px;
-		top: 100px;
+		top: 180px;
 	}
 
 	.site-intro{
@@ -490,6 +494,10 @@ a img:hover{
 
 	.no-mobile{
 		display: none;
+	}
+
+	.no-desktop{
+		display: flex;
 	}
 
 	#whole-page{
@@ -517,7 +525,7 @@ a img:hover{
 
 	#nav-column{
 		position: absolute;
-		top: -20em;
+		top: -25em;
 		left: 0;
 		width: 100%;
 		background-color: #ffdfee;

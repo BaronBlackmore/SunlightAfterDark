@@ -430,7 +430,7 @@ a img:hover{
 }
 
 .social-images{
-	padding-top: 1em;
+	/*padding-top: 1em;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -531,6 +531,10 @@ a img:hover{
 		left: 0;
 		width: 100%;
 		background-color: #ffdfee;
+	}
+
+	.social-images{
+		padding-top:1em;
 	}
 
 	.site-intro{

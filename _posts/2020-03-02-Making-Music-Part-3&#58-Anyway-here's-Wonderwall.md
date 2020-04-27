@@ -2,7 +2,7 @@
 layout: post
 ---
 It's the final installment if learning to write music (for now)!
-If you missed the first two, you can read them [here](www.sunlightafterdark.com) and [here](www.sunlightafterdark.com).
+If you missed the first two, you can read [Part 1](www.sunlightafterdark.com) and [Part 2](www.sunlightafterdark.com) there.
 
 Missing from my previous post is another key ingredient in writing music: the song needs to be about something; to have a focus or a message to convey (seems so obvious now). The song that I've developed here is the theme tune to the main antagonist of my game, Winter Solace.
 
@@ -15,7 +15,7 @@ I wanted to write this piece in minor while including some notes from out of the
 
 Therein lies a beat, bass and melody, basically a song already. When I tried to write it up properly I got this monstrosity:
 
-<audio src="sounds/beatbox-demo.mp3" controls preload></audio>
+<audio src="sounds/Chesters-theme-v2.mp3" controls preload></audio>
 
 Hold on, lets take out that bass and replace it with some chords.
 
@@ -24,7 +24,7 @@ Figuring out it was in the key of A minor helped, once again I did this by going
 
 With that in mind, here's a midi sample with new bass, and bloopier instruments:
 
-<audio src="sounds/beatbox-demo.mp3" controls preload></audio>
+<audio src="sounds/Chesters-theme-v3" controls preload></audio>
 
 Next comes instruments.
 
@@ -36,16 +36,20 @@ One of my favorite musical combinations is a long slow sound accompanied by a ve
 
 The plugins here which are key are the Overdrive and the EQ Three: Overdrive gives more of that warm fuzziness and the EQ Three lets you filter out high med and low sounds, letting me keep the low tones in the bass, and the high tones in the melody.
 
-<audio src="sounds/beatbox-demo.mp3" controls preload></audio>
+[Ableton Settings](/images/2020-03-02-Making-Music-Part-3&#58-Anyway-here's-Wonderwall.png)
 
 Fun fact about 8bit music! The sound chips in most 8bit consoles could only ever output 4 sounds at a time. Usually this was divided into three tracks for notes and one white noise track which was usually used as the drum. That's why 8bit music has so few chords and so many arpeggios. If you want your music to sound genuinely 8bit, try restricting the amount of notes played to at most 4 at once.
 
 So here it is, I’ve hit my limit on how to make a good tune, but I’m pretty happy with this one for now.
 
-<audio src="sounds/beatbox-demo.mp3" controls preload></audio>
+<audio src="sounds/Chesters-theme-v4.5.mp3" controls preload></audio>
 
 If you’d like the instruments used you can download them here: Dropbox link
 
 If you have any advice on how I could improve the tune, let me know, I would really appreciate some feedback.
 
-Anyhow, this concludes this brief exploration into writing music, thanks for coming on the journey! Ever been interested in making clothes? [Check this out](www.sunlightafterdark.com)
+Anyhow, this concludes this brief exploration into writing music, thanks for coming on the journey! 
+
+
+[Making Music Part 1: I fell in love with a dying keyboard ▶▶▶](p1.com)
+[Making Music, Part 2: If music is the food of the soul, I can only make baked beans. ▶▶▶](p2.com)

@@ -18,4 +18,4 @@ Over time i've collected a huge folder of reference images, as catalysts for con
 
 In this year I want to check that folder more often, flick through, get inspired and clear asside time to make more thoroughly planned drawings. I haven't been satisfied with a drawing I've done in a while:
 
-[Grey sitting in window](/images/grey-window.png)
+[Grey sitting in window](/images/2019-01-02-The-lens-into-another-place.png)

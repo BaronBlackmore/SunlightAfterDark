@@ -19,7 +19,7 @@ And boy did I learn.
 
 Fuelled by optimism, I started designing. They were going to be a sort of mix between the following clothes:
 
-[A variety of trouser types](/images/t2018-12-12-Chevron-hakama-trousers.png)
+[A variety of trouser types](/images/2018-12-12-Chevron-hakama-trousers.png)
 
 Some features that I wanted:
 

@@ -85,6 +85,7 @@
 		padding: 1em 0 0.5em 0;
 		line-height: 1.25em;
 		text-transform: capitalize;
+		letter-spacing: 0.02em;
 	}
 
 	p{
@@ -283,7 +284,7 @@
 }
 
 .post-list li{
-	padding: 1em 0;
+	padding: 2em 0;
 }
 
 .post-preview{

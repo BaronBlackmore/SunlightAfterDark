@@ -16,7 +16,7 @@ layout: default
 <div class="center-col post-list">
 	<!-- "Latest post" -->
 
-	<h5>Latest Posts</h5>
+	<h5>Latest Blog Post</h5>
 	<div class="line"></div>
 		
 	{% for post in site.posts limit:1 %} 
@@ -38,30 +38,10 @@ layout: default
 
 	{% endfor %} 
 
-
-
-	<!-- previous two posts -->
-	<ul>
-	{% for post in site.posts offset:1 limit:2 %} 
-		<li> 
-			<div class="post-preview">
-
-				<div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-				</div>
-
-				<div class="content-preview">
-					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
-					<small>{{ post.date | date: "%-d %B %Y" }}</small>
-					<div class="text-preview">
-						<p>{{ post.content | strip_html | truncate: 160 }}</p>
-						<a class="triangle-link" href="{{post.url}}">▶▶▶</a>
-					</div>
-				</div>
-			</div>
-		</li> 
-	{% endfor %} 
-	</ul>
-	
 	<a href="blog">See more posts ▶▶▶</a>
+
+	<div class="line"></div>
+	<h5>Something Else</h5>
+	<div class="line"></div>
 
 </div>

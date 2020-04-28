@@ -159,7 +159,7 @@
 /*signup form*/
 
 	#mc_embed_signup{
-		padding:1em 1em 10em 1em;
+		/*padding:1em 1em 10em 1em;*/
 	}
 
 	#mce-EMAIL{
@@ -211,11 +211,13 @@
 .flex-left{
 	display: flex;
 	justify-content: flex-start;
+	width: 50%;
 }
 
 .flex-right{
 	display: flex;
 	justify-content: flex-end;
+	width: 50%;
 }
 
 .contact-info{
@@ -485,6 +487,10 @@ a img:hover{
 		padding: 0.5em 0 0.3em 0;
 	}
 
+	.neighbour-posts .post-preview{
+		height: auto;
+	}
+
 .no-desktop{
 	display: none;
 }
@@ -597,7 +603,7 @@ a img:hover{
 	}
 
 	.neighbour-posts{
-		flex-direction: column;
+		flex-direction: column-reverse;
 	}
 
 	.subscription-box{
@@ -606,6 +612,10 @@ a img:hover{
 
 	.image-preview, .post-head-image{
 		flex: 0 0 156px;
+	}
+
+	.flex-left, .flex-right{
+		width: 100%;
 	}
 }
 

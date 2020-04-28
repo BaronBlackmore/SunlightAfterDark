@@ -15,7 +15,7 @@ During uni I felt like rekindling my piano skills to see what I'd retained. But 
 
 After a little searching on eBay, I spied a keyboard with a few octaves missing (four instead of the normal seven) and snatched it up. Only when it arrived did I see that not only were there fewer keys, but they were smaller too. Truly the ukulele equivalent of a piano. 
 
-![Portasound Keyboard](/images/2019-12-03-Making-Music-Part-1&#58-I-fell-in-love-with-a-dying-keyboard.png)
+![Portasound Keyboard](/images/2019-12-03-Making-Music-Part-1&-58-I-fell-in-love-with-a-dying-keyboard.png)
 
 And it's gorgeous. Boasting nine instruments (including the world's simplest drum machine), it can be played out and about for the low low cost of six DD batteries. But the sound, oh the sound. The beauty that pours out of this machine is something hipsters can only dream of emulating. 
 
@@ -29,10 +29,6 @@ Over the last week I've been learning Ableton Live, a surprisingly approachable 
 
 So here it is. It took me a couple of days to clean, trim and master, but if you'd like to play a digital version of my keyboard, now you can too.
 
-[Download Link ▼▼▼](/downloads/portasound-samples.zip)
+[▼ Download Samples](https://www.dropbox.com/s/ut6zovep1he6x7b/Portasound%20Samples.zip?dl=1)
 
 Now that I can make any sound I desire, nothing should be able to stop me from writing my own songs, right?
-
-[Making Music, Part 2: If music is the food of the soul, I can only make baked beans. ▶▶▶](p2.com)
-
-[Making Music Part 3: Anyway here's Wonderwall ▶▶▶](p3.com)

@@ -49,8 +49,3 @@ If you’d like the instruments used you can download them here: Dropbox link
 If you have any advice on how I could improve the tune, let me know, I would really appreciate some feedback.
 
 Anyhow, this concludes this brief exploration into writing music, thanks for coming on the journey! 
-
-
-[Making Music Part 1: I fell in love with a dying keyboard ▶▶▶](p1.com)
-
-[Making Music, Part 2: If music is the food of the soul, I can only make baked beans. ▶▶▶](p2.com)

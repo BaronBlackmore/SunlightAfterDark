@@ -44,7 +44,7 @@ title: "none"
 	   
 		<div class="post-preview" style="flex-direction: column;">
 			<a href="{{page.previous.url}}"><h5>◀◀◀ Previous Post</h5></a>
-			<a href="{{post.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			<a href="{{page.previous.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div></a>
 
 			<div class="content-preview">
@@ -66,7 +66,7 @@ title: "none"
 		
 		<div class="post-preview" style="flex-direction: column;">
 			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post ▶▶▶</h5></a>
-			<a href="{{post.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+			<a href="{{page.next.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div></a>
 
 			<div class="content-preview">
@@ -77,6 +77,12 @@ title: "none"
 					<a class="triangle-link" href="{{page.next.url}}">▶▶▶</a>
 				</div>
 			</div>
+		</div>
+
+		{% else %}
+
+		<div class="subscription-box center-col flex-all">
+			{% include mailchimp-signup.html %}
 		</div>
 
 		{% endif %}

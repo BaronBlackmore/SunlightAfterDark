@@ -37,7 +37,3 @@ This image of a chord wheel. It's still worth having as a reference for building
 This latest stint of learning to write music has stemmed from making my game, Winter Solace. It needs a soundtrack at some point, which is enough to motivate me to have another crack at it.
 
 So, armed with all this knowledge and experience, would I do any better? 
-
-[Making Music Part 1: I fell in love with a dying keyboard ▶▶▶](p1.com)
-
-[Making Music Part 3: Anyway here's Wonderwall ▶▶▶](p3.com)

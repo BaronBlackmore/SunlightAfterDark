@@ -9,7 +9,7 @@ My interest in it waned after I realized there was no way to get my super cool t
 
 Flash forward to my teenage years. Writing lyrics was the preferred way to kill time while in the back seat during long car journeys and other occasions when my parents didn’t get me. Here are some actual lyrics I wrote: 
 
-![Terrible lyrics](/images/lyrics.png)
+![Terrible lyrics](/images/lyrics.jpg)
 
 I was just starting to dabble with the ukulele back then, knowing little beyond the absolute basics. Thanks to my friend's older brother who was a stellar piano player, I learnt some chords that didn't sound terrible in combination. However, a neat chord progression alone wouldn't drive these lyrics out of Sucksville. Plus, I’m poor at singing, which didn't help.
 

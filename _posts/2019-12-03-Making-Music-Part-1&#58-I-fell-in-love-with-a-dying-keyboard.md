@@ -34,4 +34,5 @@ So here it is. It took me a couple of days to clean, trim and master, but if you
 Now that I can make any sound I desire, nothing should be able to stop me from writing my own songs, right?
 
 [Making Music, Part 2: If music is the food of the soul, I can only make baked beans. ▶▶▶](p2.com)
+
 [Making Music Part 3: Anyway here's Wonderwall ▶▶▶](p3.com)

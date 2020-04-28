@@ -24,7 +24,7 @@ Figuring out it was in the key of A minor helped, once again I did this by going
 
 With that in mind, here's a midi sample with new bass, and bloopier instruments:
 
-<audio src="/sounds/Chesters-theme-v3" controls preload></audio>
+<audio src="/sounds/Chesters-theme-v3.mp3" controls preload></audio>
 
 Next comes instruments.
 
@@ -42,7 +42,7 @@ Fun fact about 8bit music! The sound chips in most 8bit consoles could only ever
 
 So here it is, I’ve hit my limit on how to make a good tune, but I’m pretty happy with this one for now.
 
-<audio src="/sounds/Chesters-theme-v4.5.mp3" controls preload></audio>
+<audio src="/sounds/Chesters-theme-v4.mp3" controls preload></audio>
 
 If you’d like the instruments used you can download them here: Dropbox link
 

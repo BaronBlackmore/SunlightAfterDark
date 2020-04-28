@@ -5,7 +5,7 @@ Like many, I tried to learn an instrument from a young age, and also like many, 
 
 One day, I stumbled on a YouTube video of a guy called Jake Shimabukuro playing ‘While My Guitar Gently Weeps’ on a ukulele and felt deep in my gut that this was a feat I had to accomplish. 
 
-<iframe allowfullscreen="" src="https://www.youtube.com/embed/puSkP3uym5k" width="674" height="379" frameborder="0"></iframe>
+<iframe allowfullscreen="" src="https://www.youtube.com/embed/puSkP3uym5k" width="100%" height="425" frameborder="0"></iframe>
 
 So I bought a ukulele, found the tab, and it was the first thing I learned. To this day it’s still the most complicated piece I can play (mediocrely), though I'm in the process of transcribing Chopin’s nocturne op. 9 no. 2.
 

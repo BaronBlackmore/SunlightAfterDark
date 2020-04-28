@@ -18,21 +18,17 @@ layout: default
 	<h5>What is this site</h5>
 	<div class="line"></div>
 
-	<ul>
-		<li> 
-			<div class="post-preview">
-				<div class="image-preview" style="background-image: url('images/sam-profile.png');"></div>
+	
+			<div class="post-preview" style="padding-bottom: 2em">
+				<div class="image-preview" style="background-image: url('images/sam-profile.png'); height: 115px;background-size: contain;"></div>
 
 				<div class="content-preview">
 					<div class="text-preview">
 						<p>Hello! I'm Sam Ballard, one person with many creative ambitions. Sunlight After Dark is a collection of all the things I've made, both professional and personal.</p>
-						<a class="triangle-link" href="{{post.url}}">More about me ▶▶▶</a>
+						<p style="text-align: right;"><a href="/about">More about me ▶▶▶</a></p>
 					</div>
 				</div>
 			</div>
-		</li> 
-	</ul>
-	
 
 
 
@@ -44,7 +40,7 @@ layout: default
 	{% for post in site.posts limit:1 %} 
 	<div class="latest-post">
 
-		<a href="{{post.url}}"><div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+		<a href="{{post.url}}"><div class="image-preview" style="height:115px; background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 		</div></a>
 
 		<div class="content-preview">

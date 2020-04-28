@@ -9,7 +9,7 @@ My interest in it waned after I realized there was no way to get my super cool t
 
 Flash forward to my teenage years. Writing lyrics was the preferred way to kill time while in the back seat during long car journeys and other occasions when my parents didn’t get me. Here are some actual lyrics I wrote: 
 
-[Terrible lyrics](/images/lyrics.png)
+![Terrible lyrics](/images/lyrics.png)
 
 I was just starting to dabble with the ukulele back then, knowing little beyond the absolute basics. Thanks to my friend's older brother who was a stellar piano player, I learnt some chords that didn't sound terrible in combination. However, a neat chord progression alone wouldn't drive these lyrics out of Sucksville. Plus, I’m poor at singing, which didn't help.
 
@@ -26,11 +26,11 @@ After 15 years of finding and absorbing as much theory as I could without proper
 
 As for resources, here are the ones I found most useful: 
 
-[Chord wheel](/images/chord-wheel.jpg)
+![Chord wheel](/images/chord-wheel.jpg)
 
 This image of a chord wheel. It's still worth having as a reference for building a chord progression. Play the chords in the pink shape and you'll get an idea of their relationship to each other. Then, you can shift the shape around the circle to hear the same relationships in different keys. 
 
-[8 bit music theory logo](/images/8-bit-theory.jpg)
+![8 bit music theory logo](/images/8-bit-theory.jpg)
 
 8bit Music Theory is a youtube channel which I found very useful when learning theory, it's very clear and descriptive. It helped me understand how music is like any other art form; there are practices but no rules, and gradation in sound is just as rich as gradation of color. At the same time, the channel breaks down tons of potential directions for writing and techniques you could add into your pieces.
 

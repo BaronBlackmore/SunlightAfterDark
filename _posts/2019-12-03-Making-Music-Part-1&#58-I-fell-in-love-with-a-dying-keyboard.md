@@ -15,11 +15,11 @@ During uni I felt like rekindling my piano skills to see what I'd retained. But 
 
 After a little searching on eBay, I spied a keyboard with a few octaves missing (four instead of the normal seven) and snatched it up. Only when it arrived did I see that not only were there fewer keys, but they were smaller too. Truly the ukulele equivalent of a piano. 
 
-[Portasound Keyboard](/images/2019-12-03-Making-Music-Part-1&#58-I-fell-in-love-with-a-dying-keyboard.png)
+![Portasound Keyboard](/images/2019-12-03-Making-Music-Part-1&#58-I-fell-in-love-with-a-dying-keyboard.png)
 
 And it's gorgeous. Boasting nine instruments (including the world's simplest drum machine), it can be played out and about for the low low cost of six DD batteries. But the sound, oh the sound. The beauty that pours out of this machine is something hipsters can only dream of emulating. 
 
-<audio src="sounds/Portasound-demo.mp3" controls preload></audio>
+<audio src="/sounds/Portasound-demo.mp3" controls preload></audio>
 
 I had no idea what I had bought but it was perfect. I didn't care that I'd retained nothing from my childhood because just pressing the keys was, and still is, a joy. The way the tones crumble when you press too many keys at once and how the circuitry is slowly coming apart produces a sound I find absolutely heartbreaking.
 

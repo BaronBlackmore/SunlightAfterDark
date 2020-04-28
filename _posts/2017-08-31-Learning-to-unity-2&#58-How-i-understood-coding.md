@@ -17,7 +17,7 @@ In this order of a few steps, If you want to make a thing, you have to:
 
 And the steps must be done in this order for something to exist and work.
 
-[boxes](/images/code-boxes.png)
+![boxes](/images/code-boxes.png)
 
 Let me break this down. When you see something like:
 
@@ -33,7 +33,7 @@ Then step three is to fill the box with something that will fit into it. you cou
 myFavoriteNumber = 5;
 ````
 
-[Unity inspector screenshot](/images/sea-sharp.png)
+![Unity inspector screenshot](/images/sea-sharp.png)
 
 Then step 4, since now that you have a box full of things and it has a name, you can ask for this box and it's contents from other places.
 What's useful is that name isn't just a name but an address. myFavoriteNumber lives in the script it's written in, which is usually called a *class*, but you can think of it like a bigger box. You can tell which box is inside which because the bigger box wraps brackets around the small one (notice the curly brackets).

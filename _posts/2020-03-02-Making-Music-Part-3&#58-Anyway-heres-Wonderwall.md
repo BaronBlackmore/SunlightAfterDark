@@ -2,7 +2,7 @@
 layout: post
 ---
 It's the final installment if learning to write music (for now)!
-If you missed the first two, you can read [Part 1](www.sunlightafterdark.com) and [Part 2](www.sunlightafterdark.com) there.
+If you missed the first two, you can read [Part 1](https://www.sunlightafterdark.com/2019/12/03/Making-Music-Part-1&-58-I-fell-in-love-with-a-dying-keyboard.html) and [Part 2](https://www.sunlightafterdark.com/2020/01/06/Making-Music-Part-2&-58-If-music-is-the-food-of-the-soul,-I-can-only-make-baked-beans.html) there.
 
 Missing from my previous post is another key ingredient in writing music: the song needs to be about something; to have a focus or a message to convey (seems so obvious now). The song that I've developed here is the theme tune to the main antagonist of my game, Winter Solace.
 
@@ -44,7 +44,7 @@ So here it is, I’ve hit my limit on how to make a good tune, but I’m pretty 
 
 <audio src="/sounds/Chesters-theme-v4.mp3" controls preload></audio>
 
-If you’d like the instruments used you can download them here: Dropbox link
+If you’d like the instruments used you can download them [here.](/downloads/Portasound-Samples.zip)
 
 If you have any advice on how I could improve the tune, let me know, I would really appreciate some feedback.
 

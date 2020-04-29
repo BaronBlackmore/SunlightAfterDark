@@ -13,7 +13,7 @@ Hala's work re-stimulated my desire for more varied clothing, because men's fash
 
 I've designed clothing, but never made any; this is my first atempt. I decided on starting with a pair of trousers because I didn't like the idea of figuring out how sleves work. Later I was told by friends who make clothes that as a starting place, I had chosen poorly. 
 
-![Indiana Jones Knight](/images/indiana)
+![Indiana Jones Knight](/images/indiana-jones.jpg)
 
 And boy did I learn.
 
@@ -48,4 +48,4 @@ And here they are!! As a bonus, I added buttons to the ankles so they can be tig
 If you'd like to recreate these in your fit, I've made a clean version of the pattern you can download below. It's scaled to 10 pixel per cm. The red parts, just try to make a smooth curve as best you can. There was some improvising in cutting and stitching, but this was the pattern I worked to.
 If you'd like to be updated whenever I make anything, you can [sign up to my newsletter!](/subscribe.html) 
 
-![Trousers drafting pattern](/images/trousers-pattern.jpg)
+![Trousers drafting pattern](/images/trousers-pattern.png)

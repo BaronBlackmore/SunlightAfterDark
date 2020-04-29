@@ -5,8 +5,6 @@ So, I've been learning Unity this year, in order to make the games of my dreams.
 
 After getting to grips with the interface, which was a bit overwhelming, I got to work on making sprites and concepts for the runner. And who would be a great running protagonist other than Sununu, the lovable scamp swinging fire at dinosaurs. 
 
-[Prehestoric pixel art](/images/2017-07-28-Learning-to-unity-1&-58-Sununu-kills-dinosaurs.png)
-
 ![Run animation](/images/sununu-run.gif)
 
 It's a one hit kill and you have to make it as far as possible, avoid the lava and get back to the future. Who's trying to stop you, but a swarm of dinosaurs controlled by your arch enemy Ben! 

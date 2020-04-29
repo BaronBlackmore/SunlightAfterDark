@@ -205,7 +205,14 @@
 }
 
 .portfolio-column{
-	padding: 
+	max-width: 1000px;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.portfolio-column img{
+	padding-bottom: 1em;
 }
 
 .line{

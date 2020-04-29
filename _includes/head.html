@@ -7,9 +7,9 @@
 	<meta author="Sam Ballard">
 
 	<title>	{{page.title}} 	</title>
+
 	<link rel="stylesheet" href="/css/main.css">
-	<!-- <link rel="stylesheet" href=css/main.css> -->
-	<link rel="canonical" href="https://sunlightafterdark.com{{ page.url }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
 	<!-- facebook tags -->
 	<meta property="og:url" content="https://sunlightafterdark.com{{ page.url }}" />

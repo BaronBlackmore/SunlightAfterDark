@@ -219,13 +219,11 @@
 .flex-left{
 	display: flex;
 	justify-content: flex-start;
-	width: 50%;
 }
 
 .flex-right{
 	display: flex;
 	justify-content: flex-end;
-	width: 50%;
 }
 
 .contact-info{
@@ -481,6 +479,10 @@ a img:hover{
 		margin-top: 5px;
 	}
 
+	.neibour-posts .flex-left, .flex-right{
+		width: 50%;
+	}
+
 	.neighbour-posts .image-preview{
 		flex: 0 0 156px;
 	}
@@ -624,8 +626,5 @@ a img:hover{
 		flex: 0 0 156px;
 	}
 
-	.flex-left, .flex-right{
-		width: 100%;
-	}
 }
 

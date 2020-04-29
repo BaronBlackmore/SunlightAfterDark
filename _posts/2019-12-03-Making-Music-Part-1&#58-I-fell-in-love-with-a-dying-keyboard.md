@@ -29,6 +29,6 @@ Over the last week I've been learning Ableton Live, a surprisingly approachable 
 
 So here it is. It took me a couple of days to clean, trim and master, but if you'd like to play a digital version of my keyboard, now you can too.
 
-[▼ Download Samples](https://www.dropbox.com/s/ut6zovep1he6x7b/Portasound%20Samples.zip?dl=1)
+[▼ Download Samples](/downloads/Portasound-Samples.zip)
 
 Now that I can make any sound I desire, nothing should be able to stop me from writing my own songs, right?

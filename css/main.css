@@ -204,6 +204,10 @@
 	flex-direction: column;
 }
 
+.portfolio-column{
+	padding: 
+}
+
 .line{
 	height: 1px;
 	width: 100%;
@@ -596,6 +600,11 @@ a img:hover{
 
 	.post-text ul{
 		padding:0.5em 1em 0.5em 2em;
+	}
+
+	.triangle-list{
+		list-style: disclosure-closed;
+		padding:0.5em 3em 0.5em 1.2em;
 	}
 
 	.flex-right{

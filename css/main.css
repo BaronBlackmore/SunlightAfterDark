@@ -462,6 +462,10 @@ li .content-preview{
 	padding:0.5em 3em 0.5em 1.2em;
 }
 
+.whitespace{
+	height: 25vh;
+}
+
 a img:hover{
 	opacity: 70%;
 }
@@ -502,10 +506,12 @@ a img:hover{
 
 	.neighbour-posts .flex-right{
 		width: 50%;
+		padding-left: 0.5em;
 	}
 
 	.neighbour-posts .flex-left{
 		width: 50%;
+		padding-right: 0.5em;
 	}
 
 	.neighbour-posts .image-preview{
@@ -517,7 +523,7 @@ a img:hover{
 	}
 
 	.neighbour-posts .post-preview{
-		padding: 1em;
+		/*padding: 1em;*/
 	}
 
 	.neighbour-posts h5{

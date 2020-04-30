@@ -31,6 +31,10 @@ title: "none"
 {{ content }}
 </div>
 
+<div>
+	<div class="line"></div>
+</div>
+
 <div class="neighbour-posts center-col flex-all">
 
 	<div class="flex-left">
@@ -47,7 +51,7 @@ title: "none"
 				<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.previous.content | strip_html | truncate: 150 }}</p>
-					<a class="triangle-link" href="{{page.previous.url}}">▶▶▶</a>
+					<a class="triangle-link" href="{{page.previous.url}}">Read Post ▶</a>
 				</div>
 			</div>
 		</div>
@@ -69,7 +73,7 @@ title: "none"
 				<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.next.content | strip_html | truncate: 150 }}</p>
-					<a class="triangle-link" href="{{page.next.url}}">▶▶▶</a>
+					<a class="triangle-link" href="{{page.next.url}}">Read Post▶</a>
 				</div>
 			</div>
 		</div>

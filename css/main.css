@@ -367,8 +367,9 @@ li .content-preview{
 .triangle-link{
 	position: absolute;
 	background-color: white;
-	bottom: 8px;
+	bottom: 11px;
 	right:0;
+	padding-left: 20px;
 }
 
 .content-preview h5{
@@ -612,10 +613,6 @@ a img:hover{
 		padding: 1em 1em;
 	}
 
-	.post-text p{
-		padding: 0.5em 1em;
-	}
-
 	.post-text img{
 		width: 100%;
 		padding: 2em 0;
@@ -634,8 +631,22 @@ a img:hover{
 		list-style: decimal;
 	}
 
+	.flex-left{
+		width: 100%;
+		padding:;
+	}
+
 	.flex-right{
 		justify-content: flex-start;
+		width: 100%;
+	}
+
+	.neighbour-posts .flex-right{
+		padding: 0 0 0 2em;
+	}
+
+	.neighbour-posts .flex-left{
+		padding: 0 0 0 2em;
 	}
 
 	.post-preview{

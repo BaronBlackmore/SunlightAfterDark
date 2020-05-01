@@ -141,9 +141,16 @@
 		font-family: Courier New;
 	}
 
+	ul{
+		padding: 0.5em 0;
+	}
+
+	ol{
+		padding: 0.5em 0;
+	}
+
 	li{
 		line-height: 1.7em;
-		padding: 0.5em 0;
 	}
 
 #whole-page{
@@ -366,7 +373,7 @@ li .content-preview{
 }
 
 .latest-post .content-preview{
-	padding: 1em 0;
+	padding-bottom: 1em;
 }
 
 .triangle-link{

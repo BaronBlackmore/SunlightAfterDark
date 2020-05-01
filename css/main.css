@@ -601,7 +601,7 @@ a img:hover{
 
 	.mob-title{
 		height: auto;
-		width: 60vh;
+		padding-right: 2em;
 		max-width: 300px;
 	}
 
@@ -655,6 +655,10 @@ a img:hover{
 	.neighbour-posts .flex-left{
 		padding: 0 0 2em 0;
 		width: 100%;
+	}
+
+	.neighbour-posts h5{
+		text-align: left;
 	}
 
 	.post-preview{

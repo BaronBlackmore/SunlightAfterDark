@@ -36,7 +36,7 @@ One of my favorite musical combinations is a long slow sound accompanied by a ve
 
 The plugins here which are key are the Overdrive and the EQ Three: Overdrive gives more of that warm fuzziness and the EQ Three lets you filter out high med and low sounds, letting me keep the low tones in the bass, and the high tones in the melody.
 
-![Ableton Settings](/images/2020-03-02-Making-Music-Part-3&#58-Anyway-here's-Wonderwall.png)
+![Ableton Settings](/images/2020-03-02-Making-Music-Part-3&-58-Anyway-here's-Wonderwall.png)
 
 Fun fact about 8bit music! The sound chips in most 8bit consoles could only ever output 4 sounds at a time. Usually this was divided into three tracks for notes and one white noise track which was usually used as the drum. That's why 8bit music has so few chords and so many arpeggios. If you want your music to sound genuinely 8bit, try restricting the amount of notes played to at most 4 at once.
 

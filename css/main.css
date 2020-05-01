@@ -599,6 +599,12 @@ a img:hover{
 		background-color: #ffdfee;
 	}
 
+	.mob-title{
+		height: auto;
+		width: 60vh;
+		max-width: 300px;
+	}
+
 	.social-images{
 		padding-top:1em;
 	}
@@ -633,7 +639,7 @@ a img:hover{
 
 	.flex-left{
 		width: 100%;
-		padding:;
+		
 	}
 
 	.flex-right{
@@ -642,11 +648,13 @@ a img:hover{
 	}
 
 	.neighbour-posts .flex-right{
-		padding: 0 0 0 2em;
+		padding: 0 0 2em 0;
+		width: 100%;
 	}
 
 	.neighbour-posts .flex-left{
-		padding: 0 0 0 2em;
+		padding: 0 0 2em 0;
+		width: 100%;
 	}
 
 	.post-preview{

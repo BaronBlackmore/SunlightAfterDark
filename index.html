@@ -25,7 +25,7 @@ layout: default
 				<div class="content-preview">
 					<div class="text-preview">
 						<p>Hello! I'm Sam Ballard, one person with many creative ambitions. Sunlight After Dark is a collection of all the things I've made, both professional and personal.</p>
-						<p style="text-align: right;"><a href="/about">More about me ▶▶▶</a></p>
+						<p style="text-align: right;"><a href="/about">More about me ▶</a></p>
 					</div>
 				</div>
 			</div>
@@ -48,7 +48,7 @@ layout: default
 			<small>{{ post.date | date: "%-d %B %Y" }}</small>
 			<div class="text-preview">
 				<p>{{ post.content | strip_html | truncate: 150 }}</p>
-				<a class="triangle-link" href="{{post.url}}">Read Post ▶▶▶</a>
+				<a class="triangle-link" href="{{post.url}}">Read Post ▶</a>
 			</div>
 		</div>
 
@@ -56,7 +56,7 @@ layout: default
 
 	{% endfor %} 
 
-	
+	<div class="whitespace"></div>
 
 
 </div>

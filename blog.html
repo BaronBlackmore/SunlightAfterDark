@@ -19,8 +19,8 @@ layout: default
 	{% for post in site.posts %} 
 		<li> 
 			<div class="post-preview">
-				<a href="{{post.url}}">
-				<div class="image-preview" style="height: auto; background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+				<a class="image-preview" href="{{post.url}}">
+				<div style="height: auto; background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 				</div>
 				</a>
 

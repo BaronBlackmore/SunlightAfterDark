@@ -141,6 +141,11 @@
 		font-family: Courier New;
 	}
 
+	li{
+		line-height: 1.7em;
+		padding: 0.5em 0;
+	}
+
 #whole-page{
 	/*min-width: 100vh;*/
 	min-height: 100vh;
@@ -320,7 +325,7 @@
 }
 
 .post-list li{
-	padding: 2em 0;
+	padding-bottom: 3em;
 }
 
 .post-preview{
@@ -383,7 +388,7 @@ li .content-preview{
 }
 
 /*hamburger*/
-	.hamburger-icon{
+	#hamburger-icon{
 		display: none;
 	 	flex-direction:column;
 	 	cursor: pointer;
@@ -576,7 +581,7 @@ a img:hover{
 		min-height: 0;
 	}
 
-	.hamburger-icon{
+	#hamburger-icon{
 		display: flex;
 	}
 
@@ -670,7 +675,7 @@ a img:hover{
 	}
 
 	.content-preview h5{
-		padding: 1em 0 0.5em 0;
+		padding: 0.5em 0 0.5em 0;
 	}
 
 	.neighbour-posts{

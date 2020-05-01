@@ -19,9 +19,10 @@ layout: default
 	{% for post in site.posts %} 
 		<li> 
 			<div class="post-preview">
-
+				<a href="{{post.url}}">
 				<div class="image-preview" style="height: auto; background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 				</div>
+				</a>
 
 				<div class="content-preview">
 					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>

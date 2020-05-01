@@ -10,7 +10,7 @@
 		<img class="no-desktop" style="width: 100%" alt="Sunlight After Dark" src="/images/title-skinny.png">
 	</a>
 
-	<div class="hamburger-icon" onclick="hamburgerSwap(this);openNav()">
+	<div id="hamburger-icon" onclick="hamburgerSwap(this);openNav()">
 	 	<div class="bar1"></div>
 		<div class="bar2"></div>
 		<div class="bar3"></div>
@@ -45,6 +45,7 @@
 
 <script type="text/javascript">
 	function hamburgerSwap(x) {
+		var x = document.getElementById("hamburger-icon");
 		x.classList.toggle("change");
 	}
 

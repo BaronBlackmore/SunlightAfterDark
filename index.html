@@ -20,7 +20,7 @@ layout: default
 
 	
 			<div class="post-preview" style="padding-bottom: 2em">
-				<div class="image-preview" style="background-image: url('images/sam-profile.png'); height: 115px;background-size: contain;"></div>
+				<div class="image-preview" style="background-image: url('images/sam-profile.png'); height: 115px;background-size: contain; margin-bottom: 1em;"></div>
 
 				<div class="content-preview">
 					<div class="text-preview">
@@ -44,7 +44,7 @@ layout: default
 		</div></a>
 
 		<div class="content-preview">
-			<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+			<a href="{{post.url}}"><h5 style="padding: 0.5em 0">{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
 			<small>{{ post.date | date: "%-d %B %Y" }}</small>
 			<div class="text-preview">
 				<p>{{ post.content | strip_html | truncate: 150 }}</p>

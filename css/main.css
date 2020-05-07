@@ -520,6 +520,7 @@ a img:hover{
 		justify-content: space-between;
 		flex-direction: row;
 		margin-top: 5px;
+		padding-bottom: 6em;
 	}
 
 	.neighbour-posts .flex-right{

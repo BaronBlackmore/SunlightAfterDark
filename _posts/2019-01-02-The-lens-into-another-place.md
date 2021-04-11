@@ -9,8 +9,8 @@ While reflecting, I went looking for some new art and found amazing artists that
 [Jules (@Cy_lindric)](http://cy-lindric.tumblr.com/)
 ![cy-lindric picture](/images/cy-lindric.jpg)
 
-[Jules (@Cy_lindric)](http://cy-lindric.tumblr.com/)
-![cy-lindric picture](/images/cy-lindric.jpg)
+[Jules (@Cy_lindric)](https://twitter.com/SachinTeng)
+![cy-lindric picture](/images/sachin-teng.jpg)
 
 Over time i've collected a huge folder of reference images, as catalysts for concepts at a later date. One of which is a book on abstract photography called [Shape of Light](https://shop.tate.org.uk/shape-of-light-100-years-of-photography-and-abstract-art/21159.html), with photographs from the Tate Moderns exhibition of the same name. I find abstract photos are high fedelity enough to give you an idea without describing any specific place or scenario. If you're having an art block, I reccomend. 
 

@@ -437,7 +437,7 @@ li .content-preview{
 #nav{
 	display: flex;
 	background-color: #ffe4e9;
-	flex: 0 0 300px;
+	flex: 0 0 190px;
 	/*justify-content: center;*/
 	flex-direction: column;
 	padding: 20px;
@@ -446,7 +446,7 @@ li .content-preview{
 #nav-column{
 	position: fixed;
 	top: 230px;
-	width: 300px;
+	width: 190px;
 	padding-bottom: 1em;
 	display: flex;
 	flex-direction: column;
@@ -470,7 +470,7 @@ li .content-preview{
 
 .site-intro{
 	position: fixed;
-	width: 300px;
+	width: 190px;
 }
 
 .site-intro img{
@@ -478,7 +478,7 @@ li .content-preview{
 }
 
 .social-images img{
-	width: 50px;
+	width: 30px;
 	padding: 5px;
 }
 

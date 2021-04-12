@@ -241,6 +241,12 @@
 	margin: auto;
 }
 
+.portfolio-spread{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
 .line{
 	height: 1px;
 	width: 100%;
@@ -261,6 +267,14 @@
 .flex-right{
 	display: flex;
 	justify-content: flex-end;
+}
+
+.portfolio-spread.flex-right{
+	width: 66%;
+}
+
+.portfolio-spread.flex-left{
+	width: 33%;
 }
 
 .contact-info{
@@ -635,7 +649,7 @@ a img:hover{
 		top: -25em;
 		left: 0;
 		width: 100%;
-		background-color: #ffdfee;
+		background-color: #ffe4e9;
 	}
 
 	.mob-title{

@@ -269,12 +269,12 @@
 	justify-content: flex-end;
 }
 
-.portfolio-spread.flex-right{
-	width: 66%;
+.ps-right{
+	flex: 0 0 33%;
 }
 
-.portfolio-spread.flex-left{
-	width: 33%;
+.ps-left{
+	flex: 0 0 66%;
 }
 
 .contact-info{

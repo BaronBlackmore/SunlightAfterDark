@@ -158,7 +158,7 @@
 	min-height: 100vh;
 	display: flex;
 	flex-direction: row;
-	max-width: 1400px;
+	/*max-width: 1400px;*/
 	margin:auto;
 }
 
@@ -228,6 +228,7 @@
 	padding: 0 1em;
 	display: flex;
 	flex-direction: column;
+	margin: auto;
 }
 
 .portfolio-column img{
@@ -433,7 +434,7 @@ li .content-preview{
 
 #nav{
 	display: flex;
-	background-color: #ffdfee;
+	background-color: #ffe4e9;
 	flex: 0 0 300px;
 	/*justify-content: center;*/
 	flex-direction: column;

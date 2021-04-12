@@ -245,7 +245,23 @@
 	display: flex;
 	flex-direction: row;
 	width: 100%;
+	justify-content: space-between;
 }
+
+
+.ps-right{
+	flex: 0 0 33%;
+}
+
+.ps-left{
+	flex: 0 0 66%;
+}
+
+.ps-left img{
+	max-width: 100%;
+	padding-bottom: 0;
+}
+
 
 .line{
 	height: 1px;
@@ -269,13 +285,6 @@
 	justify-content: flex-end;
 }
 
-.ps-right{
-	flex: 0 0 33%;
-}
-
-.ps-left{
-	flex: 0 0 66%;
-}
 
 .contact-info{
 	/*padding:3em 1em;*/

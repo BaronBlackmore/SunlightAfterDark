@@ -218,14 +218,16 @@
 	max-width: 720px;
 	margin: auto;
 	background-color: white;
-	padding: 0 20px;
+	padding-left: 20px;
+	padding-right: 170px;
 	display: flex;
 	flex-direction: column;
 }
 
 .portfolio-column{
 	max-width: 1000px;
-	padding: 0 1em;
+	padding-left: 20px;
+	padding-right: 170px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
@@ -579,6 +581,13 @@ a img:hover{
 		width: 150px;
 	}
 
+	.center-col{
+		padding: 0 20px;
+	}
+	.portfolio-column{
+		padding: 0 20px;
+	}
+
 }
 
 @media(max-width: 800px){
@@ -595,6 +604,13 @@ a img:hover{
 		flex-direction: column;
 	}
 
+	.center-col{
+		padding: 0 20px;
+	}
+	.portfolio-column{
+		padding: 0 20px;
+	}
+	
 	#main{
 		min-height: 0;
 	}

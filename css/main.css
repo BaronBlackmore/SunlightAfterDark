@@ -246,11 +246,11 @@
 }
 
 .portfoloio-column h5{
-	padding: 
+	padding-top: 2em; 
 }
 
 .portfolio-column .center-col{
-	padding-bottom: 5em;
+	padding-bottom: 4em;
 }
 
 .portfolio-column .post-title{
@@ -402,7 +402,7 @@
 
 .post-title img{
 	padding: 0;
-	width: 50%;
+	width: 45%;
 	margin: 0;
 }
 
@@ -728,6 +728,11 @@ a img:hover{
 
 	.post-title small{
 		padding: 0;
+	}
+
+	.post-title img{
+		width: 100%;
+		padding-bottom: 1em;
 	}
 
 	.post-text ul{

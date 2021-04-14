@@ -380,6 +380,14 @@
 	height: auto;
 }
 
+.dark-text{
+	color: #553e53;
+}
+
+.post-title img{
+	/*padding: 0;*/
+}
+
 .image-preview{
 	height: 200px;
 	background-position: center;
@@ -636,7 +644,7 @@ a img:hover{
 		padding: 0 20px;
 	}
 	.portfolio-column{
-		padding: 0 20px;
+		padding: 0;
 	}
 
 	#main{

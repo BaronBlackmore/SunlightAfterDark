@@ -419,6 +419,11 @@ li .content-preview{
 	padding-left: 20px;
 }
 
+.backtotop{
+	text-align: center;
+	padding:5em 0;
+}
+
 .content-preview h5{
 	padding: 0 0 0.4em 0;
 }

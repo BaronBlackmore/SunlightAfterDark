@@ -269,7 +269,7 @@
 .portfolio-frame{
 	display: flex;
 	flex-direction: row;
-	/*padding-bottom: 20px;*/
+	padding-bottom: 3em;
 }
 
 .portfolio-frame img{
@@ -793,6 +793,18 @@ a img:hover{
 
 	.image-preview, .post-head-image{
 		flex: 0 0 156px;
+	}
+
+	.portfolio-frame{
+		flex-direction: column;
+	}
+
+	.portfolio-desc{
+		width: 100%;
+	}
+
+	.portfolio-frame img{
+		width: 100%;
 	}
 
 }

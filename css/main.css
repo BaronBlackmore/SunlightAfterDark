@@ -269,12 +269,13 @@
 .portfolio-frame{
 	display: flex;
 	flex-direction: row;
-	padding-bottom: 20px;
+	/*padding-bottom: 20px;*/
 }
 
 .portfolio-frame img{
 	width: 50%;
 	height: auto;
+	padding-bottom: 0;
 }
 
 .portfolo-desc{
@@ -283,7 +284,7 @@
 }
 
 .portfolo-desc-container{
-		padding: 40px;
+	padding: 0em 2em;
 }
 
 .line{

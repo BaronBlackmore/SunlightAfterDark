@@ -266,6 +266,21 @@
 	justify-content: space-between;
 }
 
+.portfolio-frame{
+	display: flex;
+	flex-direction: row;
+	padding-bottom: 20px;
+}
+
+.portfolio-frame img{
+	width: 50%;
+	height: auto;
+}
+
+.portfolo-desc{
+	padding: 40px;
+}
+
 
 .ps-right{
 	flex: 0 0 33%;

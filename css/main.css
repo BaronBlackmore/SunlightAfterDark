@@ -278,23 +278,13 @@
 }
 
 .portfolo-desc{
-	padding: 40px;
+
+	width: 50%;
 }
 
-
-.ps-right{
-	flex: 0 0 33%;
+.portfolo-desc-container{
+		padding: 40px;
 }
-
-.ps-left{
-	flex: 0 0 66%;
-}
-
-.ps-left img{
-	max-width: 100%;
-	padding-bottom: 0;
-}
-
 
 .line{
 	height: 1px;

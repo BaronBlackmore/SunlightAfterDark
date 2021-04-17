@@ -276,6 +276,7 @@
 	width: 50%;
 	height: auto;
 	padding-bottom: 0;
+	margin: 0;
 }
 
 .portfolo-desc{
@@ -285,6 +286,10 @@
 
 .portfolo-desc-container{
 	padding: 0em 2em;
+}
+
+.portfolo-desc-container.job-description{
+	width: 100%;
 }
 
 .line{
@@ -802,6 +807,7 @@ a img:hover{
 	.portfolio-desc{
 		width: 100%;
 	}
+
 
 	.portfolio-frame img{
 		width: 100%;

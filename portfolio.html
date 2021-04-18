@@ -417,7 +417,6 @@ function removeClass(element, name) {
 function toggleSelected(element){
 	var btns = document.getElementsByClassName("btn");
 	
-	element.className += " selected";
 
 	for(var i = 0; i<btns.length; i++){
 		var classes = btns[i].className.split(" ");
@@ -426,6 +425,9 @@ function toggleSelected(element){
 			btns[i].className = "btn";
 		}
 	}
+
+	addClass(element, "selected");
+
 }
 
 

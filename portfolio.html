@@ -36,11 +36,11 @@ layout: default
 
 <div class="filter-row">
 	<span>Show:</span>
-	<button onclick="filterObjects('all')">All</button> 
-	<button onclick="filterObjects('uiux')">UI & UX</button>
-	<button onclick="filterObjects('branding')">Branding</button>
-	<button onclick="filterObjects('illustration')">Illustration</button>
-	<button onclick="filterObjects('development')">Development</button>
+	<button class="btn selected" onclick="filterObjects('all') toggleSelected(this)">All</button> 
+	<button class="btn" onclick="filterObjects('uiux') toggleSelected()">UI & UX</button>
+	<button class="btn" onclick="filterObjects('branding') toggleSelected()">Branding</button>
+	<button class="btn" onclick="filterObjects('illustration') toggleSelected()">Illustration</button>
+	<button class="btn" onclick="filterObjects('development') toggleSelected()">Development</button>
 
 </div>
 
@@ -411,4 +411,22 @@ function removeClass(element, name) {
 	}	
 	element.className = arr1.join(" ");
 }
+
+
+
+function toggleSelected(){
+	var btns = document.getElementsByClassName("btn");
+	
+	for(int i = 0; i<btns.length;i++){
+		var classes = btns[i].className.split(" ");
+
+		if(classes[classes.length-1] == "selected"){
+			btns[i].className = "btn";
+		}else{
+			btns[i].className += " selected";
+		}
+	}
+}
+
+
 </script> 

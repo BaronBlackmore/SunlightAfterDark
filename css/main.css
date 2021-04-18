@@ -158,7 +158,7 @@
 		font-size: 1em;
 		font-family: Roboto, serif;
 		letter-spacing: 0em;
-		/*background-color: #de2a7e;*/
+		background-color: transparent;
 		color: #de2a7e;
 		min-width: 5em;
 		cursor: pointer;
@@ -182,6 +182,10 @@
 
 .show{
 	display: flex !important;
+}
+
+.selected{
+	background-color: green !important;
 }
 
 .checkmark{

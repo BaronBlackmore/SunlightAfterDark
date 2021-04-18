@@ -33,15 +33,16 @@ layout: default
 <h5>Portfolio</h5>
 <div class="filter-row">
 	<p>Show:</p>
-	<button>All</button> 
-	<button>UI & UX</button>
-	<button>Illustration</button>
+	<button onclick="filterObjects('all')">All</button> 
+	<button onclick="filterObjects('uiux')">UI & UX</button>
+	<button onclick="filterObjects('branding')">Branding</button>
+	<button onclick="filterObjects('illustration')">Illustration</button>
 </div>
 
 <div class="line"></div>
 
 
-	<div class="portfolio-frame">
+	<div class="portfolio-frame branding">
 		<img src="/images/portfolio/coefficient-tile.png">
 		<div class="portfolio-desc">
 			<div class="portfolo-desc-container">
@@ -66,7 +67,7 @@ layout: default
 		</div>
 	</div>
 
-	<div class="portfolio-frame">
+	<div class="portfolio-frame uiux">
 		<img src="/images/portfolio/nhsx-tile.png">
 		<div class="portfolio-desc">
 			<div class="portfolo-desc-container">

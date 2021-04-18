@@ -154,11 +154,19 @@
 	}
 
 	button{
-		background-color: green;
+			padding: 0.5em 0;
+		font-size: 1em;
+		font-family: Roboto, serif;
+		letter-spacing: 0em;
+		background-color: #de2a7e;
+		color: white;
+		width: 100%;
+		border: none;
+		cursor: pointer;
 	}
 
 	button:hover{
-		background-color: pink;
+		background-color: #fc5b96;
 	}
 
 #whole-page{
@@ -170,20 +178,9 @@
 	margin:auto;
 }
 
-.button{
-	padding: 0.5em 0;
-	font-size: 1em;
-	font-family: Roboto, serif;
-	letter-spacing: 0em;
-	background-color: #de2a7e;
-	color: white;
-	width: 100%;
-	border: none;
-	cursor: pointer;
-}
 
-.button:hover{
-	background-color: #fc5b96;
+.show{
+	display: flex;
 }
 
 .checkmark{
@@ -275,7 +272,7 @@
 }
 
 .portfolio-frame{
-	display: flex;
+	display: none;
 	flex-direction: row;
 	padding-bottom: 3em;
 }

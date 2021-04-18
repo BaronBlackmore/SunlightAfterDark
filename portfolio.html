@@ -36,11 +36,11 @@ layout: default
 
 <div class="filter-row">
 	<span>Show:</span>
-	<button class="btn selected" onclick="filterObjects('all') toggleSelected(this)">All</button> 
-	<button class="btn" onclick="filterObjects('uiux') toggleSelected()">UI & UX</button>
-	<button class="btn" onclick="filterObjects('branding') toggleSelected()">Branding</button>
-	<button class="btn" onclick="filterObjects('illustration') toggleSelected()">Illustration</button>
-	<button class="btn" onclick="filterObjects('development') toggleSelected()">Development</button>
+	<button class="btn selected" onclick="filterObjects('all'); toggleSelected(this)">All</button> 
+	<button class="btn" onclick="filterObjects('uiux'); toggleSelected(this)">UI & UX</button>
+	<button class="btn" onclick="filterObjects('branding'); toggleSelected(this)">Branding</button>
+	<button class="btn" onclick="filterObjects('illustration'); toggleSelected(this)">Illustration</button>
+	<button class="btn" onclick="filterObjects('development'); toggleSelected(this)">Development</button>
 
 </div>
 
@@ -414,16 +414,16 @@ function removeClass(element, name) {
 
 
 
-function toggleSelected(){
+function toggleSelected(element){
 	var btns = document.getElementsByClassName("btn");
 	
+	element.className += " selected";
+
 	for(var i = 0; i<btns.length; i++){
 		var classes = btns[i].className.split(" ");
 
 		if(classes[classes.length-1] == "selected"){
 			btns[i].className = "btn";
-		}else{
-			btns[i].className += " selected";
 		}
 	}
 }

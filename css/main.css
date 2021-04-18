@@ -286,7 +286,7 @@
 
 .portfolio-frame img{
 	width: 50%;
-	height: auto;
+	height: max-content;
 	padding-bottom: 0;
 	margin: 0;
 }
@@ -675,7 +675,7 @@ a img:hover{
 		padding: 0 20px;
 	}
 	.portfolio-column{
-		padding: 0;
+		/*padding: 0;*/
 	}
 
 }

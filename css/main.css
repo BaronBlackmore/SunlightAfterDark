@@ -153,6 +153,14 @@
 		line-height: 1.7em;
 	}
 
+	button{
+		background-color: green;
+	}
+
+	button:hover{
+		background-color: pink;
+	}
+
 #whole-page{
 	/*min-width: 100vh;*/
 	min-height: 100vh;
@@ -289,6 +297,12 @@
 
 .portfolo-desc-container .job-description{
 	width: 100%;
+}
+
+.filter-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .line{

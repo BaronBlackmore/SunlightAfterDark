@@ -185,7 +185,9 @@
 }
 
 .selected{
-	background-color: green !important;
+	background-color: #ffe4e9;
+	border-color: #ffe4e9;
+	cursor: auto;	
 }
 
 .checkmark{
@@ -829,8 +831,17 @@ a img:hover{
 		width: 100%;
 	}
 
-	..portfolo-desc-container{
+	.portfolo-desc-container{
 		padding:0 1em;
+	}
+/*
+	.portfolo-desc-container h5{
+		padding:0 1em;
+	}*/
+
+
+	.portfolio-top{
+		padding:1em;
 	}
 
 }

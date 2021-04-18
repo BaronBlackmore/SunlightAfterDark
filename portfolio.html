@@ -417,7 +417,7 @@ function removeClass(element, name) {
 function toggleSelected(){
 	var btns = document.getElementsByClassName("btn");
 	
-	for(int i = 0; i<btns.length;i++){
+	for(var i = 0; i<btns.length; i++){
 		var classes = btns[i].className.split(" ");
 
 		if(classes[classes.length-1] == "selected"){

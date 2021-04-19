@@ -288,6 +288,8 @@
 	flex-direction: row;
 	transition: 0.5s;
 	overflow: clip;
+	display: flex;
+	height: 0;
 	/*padding-bottom: 3em;*/
 }
 

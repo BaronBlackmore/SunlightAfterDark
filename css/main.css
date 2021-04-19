@@ -164,6 +164,7 @@
 		cursor: pointer;
 		margin: 0.5em;
 		padding: 0.5em;
+		transition: 0.5s;
 	}
 
 	button:hover{
@@ -182,6 +183,8 @@
 
 .show{
 	display: flex !important;
+	height: 500px !important;
+	padding-bottom: 3em;
 }
 
 .selected{
@@ -194,6 +197,8 @@
 	height: 36px;
 	width: 36px;
 }
+
+
 
 /*signup form*/
 
@@ -279,9 +284,11 @@
 }
 
 .portfolio-frame{
-	display: none;
+	/*display: none;*/
 	flex-direction: row;
-	padding-bottom: 3em;
+	transition: 0.5s;
+	overflow: clip;
+	/*padding-bottom: 3em;*/
 }
 
 .portfolio-frame img{
@@ -844,5 +851,8 @@ a img:hover{
 		padding:1em;
 	}
 
+	.show{
+		height: 100% !important;
+	}
 }
 

@@ -532,7 +532,9 @@ function filterObjects(c) {
 
 			if(c == ""){ //if all
 
-				if(x[i].className.indexOf("nothing") != -1){ //if blep
+				if(x[i].className.indexOf("nothing") > -1){ //if blep
+					
+				}else{
 					addClass(x[i],"show");
 				}
 

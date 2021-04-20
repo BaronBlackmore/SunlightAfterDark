@@ -190,7 +190,7 @@
 	}
 
 	input{
-	
+
 	}
 
 	
@@ -409,7 +409,7 @@
 
 .post-text ul{
 	padding:0.5em 3em 0.5em 1.2em;
-	list-style:disclosure-closed;
+	list-style:inherit;
 }
 
 .post-text li{

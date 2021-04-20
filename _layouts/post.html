@@ -42,7 +42,7 @@ title: "none"
 	    {% if page.previous.url %}
 	   
 		<div class="post-preview" style="flex-direction: column;">
-			<a href="{{page.previous.url}}"><h5>&#9664;&#x25C0; Previous Post</h5></a>
+			<div class="page-top"><a href="{{page.previous.url}}"><h5>&#x25C4;&#xfe0e; Previous Post</h5></a></div>
 			<a href="{{page.previous.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div></a>
 
@@ -64,7 +64,7 @@ title: "none"
 	    {% if page.next.url %}
 		
 		<div class="post-preview" style="flex-direction: column;">
-			<a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post &#x25b6;&#xfe0e;</h5></a>
+			<div class="page-top"><a style="text-align: right;" href="{{page.next.url}}"><h5>Next Post &#x25b6;&#xfe0e;</h5></a></div>
 			<a href="{{page.next.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.next.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div></a>
 

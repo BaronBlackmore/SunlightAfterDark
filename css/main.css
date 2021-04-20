@@ -305,7 +305,7 @@
 }
 
 .portfolo-desc-container{
-	padding: 0em 2em;
+	padding: 0em 1em 0 2em;
 }
 
 .portfolo-desc-container .job-description{
@@ -829,6 +829,7 @@ a img:hover{
 
 	.portfolio-frame{
 		flex-direction: column;
+		display: none;
 	}
 
 	.portfolio-desc{

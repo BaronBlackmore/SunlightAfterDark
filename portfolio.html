@@ -527,21 +527,20 @@ function filterObjects(c) {
 	for (var i = 0; i < x.length; i++) {
 		removeClass(x[i], "show");
 		
-			//if this string can be found in the class list
-			if(x[i].className.indexOf(c)> -1) { 
+		//if this string can be found in the class list
+		if(x[i].className.indexOf(c)> -1) { 
 
-				if(c == "" &&){ //if all
-
+			if(c == ""){ //if all
 
 				if(x[i].className.indexOf("nothing") != -1){ //if blep
 					addClass(x[i],"show");
 				}
 
-				}else{
-					addClass(x[i],"show");					
-				}
-
+			}else{
+				addClass(x[i],"show");					
 			}
+
+		}
 	}	
 }
 

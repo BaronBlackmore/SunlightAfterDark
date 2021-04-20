@@ -102,7 +102,7 @@
 	label{
 	font-size: 1em;
 	padding: 0.5em 0;
-	font-family: Roboto, serif;
+	font-family: Roboto, sans-serif;
 	letter-spacing: 0em;
 	}
 
@@ -171,6 +171,30 @@
 		background-color: #ffe4e9;
 	}
 
+	.button{
+		border: 2px solid #de2a7e;
+		font-size: 1em;
+		font-family: Roboto, sans-serif;
+		letter-spacing: 0em;
+		background-color: transparent;
+		color: #de2a7e;
+		min-width: 5em;
+		cursor: pointer;
+		margin: 0.5em;
+		padding: 0.5em;
+		transition: 0.5s;
+	}
+
+	.button:hover{
+		background-color: #ffe4e9;	
+	}
+
+	input{
+		background-color: orange;
+	}
+
+	
+
 #whole-page{
 	/*min-width: 100vh;*/
 	min-height: 100vh;
@@ -207,7 +231,7 @@
 	}
 
 	#mce-EMAIL{
-		height: 36px;
+		height: 2em;
 	}
 
 	#mc-embedded-subscribe-form{

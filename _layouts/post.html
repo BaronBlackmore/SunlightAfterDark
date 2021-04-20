@@ -42,7 +42,7 @@ title: "none"
 	    {% if page.previous.url %}
 	   
 		<div class="post-preview" style="flex-direction: column;">
-			<a href="{{page.previous.url}}"><h5>◀ Previous Post</h5></a>
+			<a href="{{page.previous.url}}"><h5>&#9664;&#x25C0; Previous Post</h5></a>
 			<a href="{{page.previous.url}}"><div class="image-preview" style="background-image: url('/images/{{ page.previous.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 			</div></a>
 
@@ -51,7 +51,7 @@ title: "none"
 				<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.previous.content | strip_html | truncate: 150 }}</p>
-					<a class="triangle-link" href="{{page.previous.url}}">Read Post ▶</a>
+					<a class="triangle-link" href="{{page.previous.url}}">Read Post &#x25b6;&#xfe0e;</a>
 				</div>
 			</div>
 		</div>
@@ -73,7 +73,7 @@ title: "none"
 				<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.next.content | strip_html | truncate: 150 }}</p>
-					<a class="triangle-link" href="{{page.next.url}}">Read Post ▶</a>
+					<a class="triangle-link" href="{{page.next.url}}">Read Post &#x25b6;&#xfe0e;</a>
 				</div>
 			</div>
 		</div>

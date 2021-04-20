@@ -854,6 +854,7 @@ a img:hover{
 
 	.portfolio-frame img{
 		width: 100%;
+		height: auto;
 	}
 
 	.portfolo-desc-container{

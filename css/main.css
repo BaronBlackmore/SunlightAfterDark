@@ -345,6 +345,12 @@
 	align-self: end;
 }
 
+.big-frame p{
+	text-align: right;
+	position: relative;
+	top: -3em;
+}
+
 .portfolio-desc{
 	width: 50%;
 }
@@ -918,6 +924,10 @@ a img:hover{
 	}
 
 	.show{
+		height: 100% !important;
+	}
+
+	.big-frame.show{
 		height: 100% !important;
 	}
 

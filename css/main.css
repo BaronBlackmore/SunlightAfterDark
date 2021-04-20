@@ -335,7 +335,7 @@
 	width: 100%;
 }
 
-.big-frame .show{
+.big-frame.show{
 	display: flex !important;
 	height: 760px !important;
 	padding-bottom: 3em;

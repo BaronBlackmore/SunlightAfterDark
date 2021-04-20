@@ -311,13 +311,11 @@
 }
 
 .portfolio-frame{
-	/*display: none;*/
 	flex-direction: row;
 	transition: 0.5s;
 	overflow: clip;
 	display: flex;
 	height: 0;
-	/*padding-bottom: 3em;*/
 }
 
 .portfolio-frame img{
@@ -325,6 +323,16 @@
 	height: max-content;
 	padding-bottom: 0;
 	margin: 0;
+}
+
+.big-frame{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.big-frame img{
+	width: 100%;
 }
 
 .portfolio-desc{

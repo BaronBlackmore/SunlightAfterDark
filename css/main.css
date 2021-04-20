@@ -335,6 +335,16 @@
 	width: 100%;
 }
 
+.big-frame .show{
+	display: flex !important;
+	height: 760px !important;
+	padding-bottom: 3em;
+}
+
+.big-frame .portfolio-desc{
+	align-self: end;
+}
+
 .portfolio-desc{
 	width: 50%;
 }

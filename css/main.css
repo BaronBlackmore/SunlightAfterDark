@@ -704,7 +704,7 @@ a img:hover{
 	}
 
 	.center-col{
-		padding: 0 20px;
+		padding: 0;
 	}
 	.portfolio-column{
 		padding: 0;
@@ -808,7 +808,7 @@ a img:hover{
 	}
 
 	li .content-preview{
-		padding: 0;
+		padding: 1em;
 	}
 
 	.content-preview h5{
@@ -820,7 +820,7 @@ a img:hover{
 	}
 
 	.subscription-box{
-		padding: 1em;
+		padding: 0em;
 	}
 
 	.image-preview, .post-head-image{
@@ -850,12 +850,13 @@ a img:hover{
 	}*/
 
 
-	.portfolio-top{
+	.page-top{
 		padding:1em;
 	}
 
 	.show{
 		height: 100% !important;
 	}
+
 }
 

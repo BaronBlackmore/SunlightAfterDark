@@ -371,6 +371,9 @@
 	width: 45%;
 	height: 4em;
 	display: flex;
+
+	background-position: left;
+	background-repeat: no-repeat;
 }
 
 .client-logo img{

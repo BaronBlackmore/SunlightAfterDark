@@ -946,5 +946,15 @@ a img:hover{
 		height: 100% !important;
 	}
 
+	.portfolio-column h5{
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+
+	.portfolio-column p{
+padding-left: 1em;
+	padding-right: 1em;
+		}
+
 }
 

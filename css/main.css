@@ -374,12 +374,7 @@
 
 	background-position: left;
 	background-repeat: no-repeat;
-}
-
-.client-logo img{
-	padding:0;
-	height: auto;
-	width: 100%;
+	background-size: contain;
 }
 
 .filter-row{

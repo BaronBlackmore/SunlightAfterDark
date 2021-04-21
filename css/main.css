@@ -928,6 +928,8 @@ a img:hover{
 
 	.client-logo{
 		width: 100%;
+		height: 2.5em;
+		margin-bottom: 1em;
 	}
 
 
@@ -944,9 +946,20 @@ a img:hover{
 		height: 100% !important;
 	}
 
+
+	.portfolo-desc-container h5{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.portfolo-desc-container p{
+		padding-left: 0;
+		padding-right: 0;
+	}
+
 	.portfolio-column h5{
-		padding-left: 1em;
-		padding-right: 1em;
+		padding-left: 0.75em;
+		padding-right: 0.75em;
 	}
 
 	.portfolio-column p{

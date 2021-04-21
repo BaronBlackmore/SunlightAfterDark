@@ -359,6 +359,10 @@
 	padding: 0em 1em 0 2em;
 }
 
+.portfolo-desc-container h5{
+	text-transform: inherit;
+}
+
 .portfolo-desc-container .job-description{
 	width: 100%;
 }

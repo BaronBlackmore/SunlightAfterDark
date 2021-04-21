@@ -367,6 +367,11 @@
 	width: 100%;
 }
 
+.client-logo{
+	width: 45%;
+	max-height: 3em;
+}
+
 .filter-row{
 	/*display: flex;
 	flex-direction: row;
@@ -496,9 +501,9 @@
 }
 
 .post-title img{
-	padding: 0;
+/*	padding: 0;
 	width: 45%;
-	margin: 0;
+	margin: 0;*/
 }
 
 .job-description{

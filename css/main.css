@@ -369,7 +369,13 @@
 
 .client-logo{
 	width: 45%;
-	max-height: 3em;
+	height: 5em;
+}
+
+.client-logo img{
+	padding:0;
+	height: 100%;
+	width: auto;
 }
 
 .filter-row{

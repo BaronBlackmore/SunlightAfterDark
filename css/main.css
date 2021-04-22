@@ -948,7 +948,7 @@ a img:hover{
 	}
 
 
-/*	.portfolo-desc-container h5{
+/*	.portfolio-blogpage h5{
 		padding-left: 0;
 		padding-right: 0;
 	}*/
@@ -958,16 +958,22 @@ a img:hover{
 		padding-right: 0;
 	}*/
 
-	/*.portfolio-column h5{
+	/*.portfolio-blogpage h5{
 		padding-left: 0.75em;
 		padding-right: 0.75em;
-	}*/
+	}
 
-	/*.portfolio-column p{
+	.portfolio-blogpage p{
 		padding-left: 1em;
 		padding-right: 1em;
-	}*/
+	}
 
+
+	.portfolio-blogpage .line{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+*/
 
 	.portfolio-column .post-title{
 		padding-left: 1em;

@@ -679,6 +679,12 @@ a img:hover{
 	padding: 1em 3em;	
 }
 
+.packsframe{
+	width: 800px;
+	height: 800px;
+	margin: auto;
+}
+
 /*post nav*/
 
 	.neighbour-posts{

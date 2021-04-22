@@ -755,7 +755,9 @@ a img:hover{
 	}
 	.packsframe{
 		max-width: 600px;
-	zoom: 0.15;
+	}
+	.packsframe iframe{
+		zoom: 0.15;
     -moz-transform:scale(0.75);
     -moz-transform-origin: 0 0;
     -o-transform: scale(0.75);
@@ -763,6 +765,7 @@ a img:hover{
     -webkit-transform: scale(0.75);
     -webkit-transform-origin: 0 0;
 	}
+
 }
 
 @media(max-width: 800px){

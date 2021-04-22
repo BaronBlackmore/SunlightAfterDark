@@ -686,6 +686,11 @@ a img:hover{
 	margin: auto;
 }
 
+.packsframe iframe{
+	width: 100%;
+	height: 100%;
+}
+
 /*post nav*/
 
 	.neighbour-posts{
@@ -754,16 +759,16 @@ a img:hover{
 		padding: 0 0 4em 0;
 	}
 	.packsframe{
-		max-width: 600px;
-	}
-	.packsframe iframe{
-		zoom: 0.15;
+	zoom: 0.15;
     -moz-transform:scale(0.75);
     -moz-transform-origin: 0 0;
     -o-transform: scale(0.75);
     -o-transform-origin: 0 0;
     -webkit-transform: scale(0.75);
     -webkit-transform-origin: 0 0;
+	}
+	.packsframe iframe{
+
 	}
 
 }

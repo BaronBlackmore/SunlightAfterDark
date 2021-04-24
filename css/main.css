@@ -171,6 +171,12 @@
 		background-color: #ffe4e9;
 	}
 
+
+	video{
+		width: 100%;
+		height: auto;
+	}
+
 	.button{
 		border: 2px solid #de2a7e;
 		font-size: 1em;
@@ -188,10 +194,6 @@
 
 	.button:hover{
 		background-color: #ffe4e9;	
-	}
-
-	input{
-
 	}
 
 	
@@ -736,7 +738,6 @@ a img:hover{
 	height: 800px;
 	overflow: clip;
 	margin: auto;
-
 }
 
 @media(min-width: 801px) and (max-width: 1120px){

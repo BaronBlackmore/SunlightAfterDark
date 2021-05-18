@@ -633,16 +633,16 @@ li .content-preview{
 
 .site-intro{
 	position: fixed;
-	width: 190px;
+	width: 230px;
 	/*padding:20px;*/
 }
 
 .site-intro img{
 	width: 100%;
-	padding: 20px 20px 0 ;
+	/*padding: 20px 20px 0 ;*/
 }
 
-.cloudline{
+.cloudline img{
 	padding:0 20px;
 }
 

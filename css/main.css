@@ -641,13 +641,13 @@ li .content-preview{
 }
 
 .site-intro img{
-	width: 100px;
+	width: 100%;
 }
 
 .sbpi{
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+	width: 230px;
 	position: fixed;
 	top:120px;
 }
@@ -661,7 +661,7 @@ li .content-preview{
 }
 
 .nav-bottom{
-	height: 1000px
+	height: 1000px;
 	background-color: #ffeff2;
 	width: 100%;
 }
@@ -779,6 +779,10 @@ a img:hover{
 	#nav-column{
 		width: 150px;
 		top: 200px;
+	}
+
+	.sbpi{
+		width: 150px;
 	}
 
 	.site-intro{

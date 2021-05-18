@@ -859,10 +859,15 @@ a img:hover{
 
 	#nav-column{
 		position: absolute;
-		top: -25em;
+		top: -31em;
 		left: 0;
 		width: 100%;
 		background-color: #ffe4e9;
+		padding-bottom: 0;
+	}
+
+	.nav-bottom{
+		height: 100px;
 	}
 
 	.mob-title{

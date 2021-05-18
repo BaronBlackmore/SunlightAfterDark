@@ -603,6 +603,8 @@ li .content-preview{
 	/*justify-content: center;*/
 	flex-direction: column;
 	/*padding: 20px;*/
+	align-items: center;
+
 }
 
 #nav-column{
@@ -633,19 +635,21 @@ li .content-preview{
 
 .site-intro{
 	position: fixed;
-	width: 230px;
+	width: 190px;
 	text-align: center;
-	/*padding:20px;*/
+	padding:20px 20px 0;
 }
 
 .site-intro img{
-	width: 83%;
+	width: 100px;
 }
 
 .sbpi{
 	display: flex;
 	flex-direction: column;
 	width: 100%;
+	position: fixed;
+	top:120px;
 }
 
 .sbpi img{
@@ -657,8 +661,9 @@ li .content-preview{
 }
 
 .nav-bottom{
-	height: 100%;
+	height: 1000px
 	background-color: #ffeff2;
+	width: 100%;
 }
 
 .social-images img{

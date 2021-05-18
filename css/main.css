@@ -634,11 +634,12 @@ li .content-preview{
 .site-intro{
 	position: fixed;
 	width: 230px;
+	text-align: center;
 	/*padding:20px;*/
 }
 
 .site-intro img{
-	width: 100%;
+	width: 83%;
 }
 
 .sbpi{
@@ -652,6 +653,11 @@ li .content-preview{
 }
 
 .sbpi p{
+	background-color: #ffeff2;
+}
+
+.nav-bottom{
+	height: 100%;
 	background-color: #ffeff2;
 }
 

@@ -608,14 +608,14 @@ li .content-preview{
 #nav-column{
 	position: fixed;
 	top: 230px;
-	width: 190px;
+	width: 230px;
 	padding-bottom: 1em;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	transition: 0.5s;
 	z-index: 5;
-	padding:20px;
+	/*padding:20px;*/
 }
 
 
@@ -639,11 +639,20 @@ li .content-preview{
 
 .site-intro img{
 	width: 100%;
-	/*padding: 20px 20px 0 ;*/
 }
 
-.cloudline img{
-	padding:0 20px;
+.sbpi{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.sbpi img{
+	width: 100%;
+}
+
+.sbpi p{
+	background-color: #ffeff2;
 }
 
 .social-images img{

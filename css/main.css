@@ -778,15 +778,16 @@ a img:hover{
 
 	#nav-column{
 		width: 150px;
-		top: 200px;
+		top: 260px;
 	}
 
 	.sbpi{
 		width: 150px;
+		top: 90px;
 	}
 
 	.site-intro{
-		width: 150px;
+		width: 120px;
 	}
 
 	.center-col{

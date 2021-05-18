@@ -599,10 +599,10 @@ li .content-preview{
 #nav{
 	display: flex;
 	background-color: #ffe4e9;
-	flex: 0 0 190px;
+	flex: 0 0 230px;
 	/*justify-content: center;*/
 	flex-direction: column;
-	padding: 20px;
+	/*padding: 20px;*/
 }
 
 #nav-column{
@@ -615,6 +615,7 @@ li .content-preview{
 	align-items: center;
 	transition: 0.5s;
 	z-index: 5;
+	padding:20px;
 }
 
 
@@ -633,10 +634,16 @@ li .content-preview{
 .site-intro{
 	position: fixed;
 	width: 190px;
+	/*padding:20px;*/
 }
 
 .site-intro img{
 	width: 100%;
+	padding: 20px 20px 0 ;
+}
+
+.cloudline{
+	padding:0 20px;
 }
 
 .social-images img{
@@ -668,7 +675,7 @@ a img:hover{
 }
 
 .social-images{
-	/*padding-top: 1em;*/
+	/*padding-top: 1efm;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;

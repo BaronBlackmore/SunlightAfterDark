@@ -345,13 +345,18 @@
 }
 
 .big-frame .portfolio-desc{
-	align-self: end;
+	/*align-self: end;*/
+	width: 100%;
 }
 
 .big-frame p{
 	text-align: right;
 	position: relative;
-	top: -3em;
+	top: -4em;
+}
+
+.big-frame .portfolo-desc-container{
+	padding: 0 1em;
 }
 
 .portfolio-desc{
@@ -364,6 +369,7 @@
 
 .portfolo-desc-container h5{
 	text-transform: inherit;
+	padding-top: 0.5em;
 }
 
 .portfolo-desc-container .job-description{
@@ -609,7 +615,7 @@ li .content-preview{
 
 #nav-column{
 	position: fixed;
-	top: 230px;
+	top: 250px;
 	width: 230px;
 	padding-bottom: 1em;
 	display: flex;
@@ -791,7 +797,7 @@ a img:hover{
 	}
 
 	.center-col{
-		padding: 0 20px;
+		padding: 0px;
 	}
 	.portfolio-column .center-col{
 		padding: 0 0 4em 0;

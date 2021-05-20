@@ -8,6 +8,9 @@ Write from the audience point of view, readers should think "how do they know me
 write as if we're talking 1 to 1
 Use the research from talking to gamers - use negatives	 as titles
 
+Header image
+ - needs to be a png
+
 Titles
  - be dramatic
  - don't be misleading, make them pay off

@@ -1,7 +1,7 @@
 ---
 layout: post
 ---
-Games are teaching tools; A way to learn how to navigate a situation, while having a greatly reduced punishment for losing. Losing at *cops and robbers* doesn’t have as much prison time as being an actual robber.
+Games are teaching tools. A way to learn how to navigate a situation, while having greatly reduced prizes and punishments. Losing *cops and robbers* doesn’t have as much prison time as being an actual robber.
 
 So what does a game teach you? Fundamentally, how to play the game. Through play you learn what skills you need to develop to be good at it. Now, where a good game will have lots of opportunities to develop your in-game skills, a great game will teach you things applicable outside of the game. Cops and robbers teaches us: *if you’re going to commit a crime, don’t get caught.*
 
@@ -68,7 +68,7 @@ Should the decision to react to A have been made earlier, the opportunity to sco
 So the next time someone asks you if “do you want x?”, and you’re not sure, ask them “how soon do I need to decide?”
 
 
-`End`
+***
 
 
 Thanks for reading! If you play go and want a game, [challenge me!](https://online-go.com/player/183552/)

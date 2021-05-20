@@ -89,7 +89,7 @@
 	}
 
 	.post-text h5{
-		padding: 3em 0.75em 1em 0.75em;
+		padding: 3em 0 1em;
 	}
 
 	p{
@@ -942,6 +942,12 @@ a img:hover{
 	.post-text audio{
 		padding-left:1em;
 		padding-right: 1em;
+	}
+
+
+	.post-text h5{
+		padding-left: 0.75em;
+		padding-right: 0.75em;
 	}
 
 	.flex-left{

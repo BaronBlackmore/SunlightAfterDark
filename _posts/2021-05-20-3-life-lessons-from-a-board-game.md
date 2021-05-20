@@ -3,7 +3,9 @@ layout: post
 ---
 Games are teaching tools. A way to learn how to navigate a situation, while having greatly reduced prizes and punishments. Losing *cops and robbers* doesn’t have as much prison time as being an actual robber.
 
-So what does a game teach you? Fundamentally, how to play the game. Through play you learn what skills you need to develop to be good at it. Now, where a good game will have lots of opportunities to develop your in-game skills, a great game will teach you things applicable outside of the game. Cops and robbers teaches us: *if you’re going to commit a crime, don’t get caught.*
+So what does a game teach you? Fundamentally, how to play the game. Through play you learn what skills you need to be good at it. 
+
+While a good game will have lots of opportunities to develop your in-game skills, a great game will teach you things applicable outside of the game. Cops and robbers teaches us: *if you’re going to commit a crime, don’t get caught.*
 
 As children, most of the games we play are push your luck games with our parents, because we don't yet know our boundaries. The game of *how much can I get away with* will stay with us long after we’re children. Later re-editions include *how high can I turn up the volume* and *how fast can I drive.* In the real world, games are all about learning exactly how much straw breaks a camels back, long before we own a camel.
 
@@ -25,7 +27,7 @@ Here are some snapshots from how a small game could play out:
 
 *Beautiful*. It’s like watching the growth of bacteria or crystals, the shapes feel so natural. It’s no wonder that Go appeals so much to [monks](https://tricycle.org/magazine/the-game-go/) and [mathematicians](https://deepmind.com/research/case-studies/alphago-the-story-so-far). 
 
-Now, though other games can teach you life lessons, I’ve found that because of the simplicity of Go, it lends itself to being interpreted through countless metaphors, so you’re more likely to interpret the game in a way which strikes a chord with you. The following list is by no means complete, these are life lessons that Go has taught me.
+Now, though other games can teach you life lessons, I’ve found that because of the simplicity of Go, it lends itself to being interpreted through countless metaphors, so you’re more likely to interpret the game in a way which strikes a chord with you. The following list is by no means complete, these are the life lessons that Go has taught me.
 
 
 

@@ -88,6 +88,10 @@
 		letter-spacing: 0.02em;
 	}
 
+	.post-text h5{
+		padding: 3em 0 1em 0;
+	}
+
 	p{
 		padding: 0.5em 0;
 		line-height: 1.7em;
@@ -176,6 +180,11 @@
 		width: 100%;
 		height: auto;
 		padding-bottom: 2em;
+	}
+
+
+	em{
+		font-style: italic;
 	}
 
 	.button{

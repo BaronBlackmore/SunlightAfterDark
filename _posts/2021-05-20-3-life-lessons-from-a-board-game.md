@@ -1,10 +1,6 @@
 ---
 layout: post
 ---
-*Disclaimer for Go players: I’m only a 12kyu, please forgive my bad examples.*
-
-### What is a game. ###
-
 Games are teaching tools; A way to learn how to navigate a situation, while having a greatly reduced punishment for losing. Losing at *cops and robbers* doesn’t have as much prison time as being an actual robber.
 
 So what does a game teach you? Fundamentally, how to play the game. Through play you learn what skills you need to develop to be good at it. Now, where a good game will have lots of opportunities to develop your in-game skills, a great game will teach you things applicable outside of the game. Cops and robbers teaches us: *if you’re going to commit a crime, don’t get caught.*
@@ -15,7 +11,7 @@ For more on everyday scenarios as games, see [Games People Play](https://www.ama
 
 
 
-### Go, the oldest game that people still play. ###
+#### Go, the oldest game that people still play. ####
 
 Go feels more like it was discovered then invented. It's beautiful in its simplicity, while being incalculably complex. The core of the game can be taught in a single sentence, but the strategy of play hasn’t stopped developing since its creation. Here in the meta-game, Go teaches life lessons in spades.
 
@@ -27,19 +23,19 @@ Here are some snapshots from how a game could play out:
 
 ![a small Go game](/images/go-game.png)
 
-*Beautiful*. It’s like watching the growth of bacteria or crystals, the shapes feel so natural. It’s no wonder the Go appeals so much to [monks](https://tricycle.org/magazine/the-game-go/) and [mathematicians](https://deepmind.com/research/case-studies/alphago-the-story-so-far). 
+*Beautiful*. It’s like watching the growth of bacteria or crystals, the shapes feel so natural. It’s no wonder that Go appeals so much to [monks](https://tricycle.org/magazine/the-game-go/) and [mathematicians](https://deepmind.com/research/case-studies/alphago-the-story-so-far). 
 
 Now, though other games can teach you life lessons, I’ve found that because of the simplicity of Go, it lends itself to being interpreted through endless metaphors, and therefore you’re more likely to find one that strikes a chord with you. The following list is by no means complete, these are life lessons that Go has taught me.
 
 
 
-### Lesson 1: When you don’t know what you want, be flexible. When you do know what you want, be strong. ###
+#### Lesson 1: When you don’t know what you want, be flexible. When you do know what you want, be strong. ####
 
 Strength and flexibility are two sides of the same coin. *Don’t put all your eggs in one basket* is a phrase which touches on this, though lacks the full picture.
 
 In Go, you can treat stones like contracts; a stone you placed on the board is saying *I could earn you points over here*. Playing stones all around the board makes a lot of claims to various territories, but over time you’ll find only some of those pay off, whereas placing stones in the same area strengthen each other by becoming harder to surround or split apart, keeping good on that contract.
 
-Below, when black makes a claim using these stones, they’re hoping to get these points. But guess what, there’s another player whose job it is to disagree with them.
+Below, black makes a claim to the dots of territory using these stones, hoping to get these points. But guess what, there’s another player whose job it is to disagree with them.
 
 ![Some examples of terriroty](/images/go-possibles.png)
 
@@ -47,7 +43,7 @@ In the real world, this means when you are uncertain what you want, try lots of 
 
 
 
-### Lesson 2: Be ready to lose the thing you want least. ###
+#### Lesson 2: Be ready to lose the thing you want least. ####
 
 Inevitably some of those “contracts” just don’t come through, and that’s because something else was more important. The price to pay for the thing you want, is things you want less.
 
@@ -57,7 +53,7 @@ On the flipside, if you never invested in anything, you have nothing to lose.
 
 
 
-### Lesson 3: Don’t make a decision until you have to. ###
+#### Lesson 3: Don’t make a decision until you have to. ####
 
 If you have options, opportunity lies everywhere, but picking one direction will result in others becoming unavailable. This is part of [path dependency](https://en.wikipedia.org/wiki/Path_dependence), where the events that happen in the future rely on events that have come before.
 
@@ -72,6 +68,9 @@ So the next time someone asks you if “do you want x”, and you’re not sure,
 
 
 
-Thanks for reading! If you play go and want a game, challenge me!
-If you like my words, subscribe get more posts
-Or, if you wanna get in touch, email me sam@sunlightafterdark.com
+Thanks for reading! If you play go and want a game, [challenge me!](https://online-go.com/player/183552/)
+If you like my words, [subscribe get more posts](https://sunlightafterdark.com/subscribe)
+Or, if you wanna get in touch, email me [sam@sunlightafterdark.com](mailto:sam@sunlightafterdark.com)
+
+
+*Disclaimer for Go players: I’m only a 12kyu, please forgive my bad examples.*

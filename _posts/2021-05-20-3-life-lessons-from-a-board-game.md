@@ -67,7 +67,7 @@ In the example below, white has played the stone at A, threatening to take a lar
 
 Should the decision to react to A have been made earlier, the opportunity to score those points may not have been there.
 
-So the next time someone asks you if “do you want x?”, and you’re not sure, ask them “how soon do I need to decide?”
+So the next time someone asks you “do you want x?”, and you’re not sure, ask them “how soon do I need to decide?”
 
 
 ***

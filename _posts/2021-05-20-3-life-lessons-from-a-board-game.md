@@ -27,7 +27,7 @@ Here are some snapshots from how a small game could play out:
 
 *Beautiful*. It’s like watching the growth of bacteria or crystals, the shapes feel so natural. It’s no wonder that Go appeals so much to [monks](https://tricycle.org/magazine/the-game-go/) and [mathematicians](https://deepmind.com/research/case-studies/alphago-the-story-so-far). 
 
-Now, though other games can teach you life lessons, I’ve found that because of the simplicity of Go, it lends itself to being interpreted through countless metaphors, so you’re more likely to interpret the game in a way which strikes a chord with you. The following list is by no means complete, these are the life lessons that Go has taught me.
+Now, though other games can teach you life lessons, I’ve found that because of the simplicity of Go, it lends itself to being interpreted through countless metaphors, so you’re more likely to interpret the game in a way which strikes a chord with you. The following list is by no means complete, but these are the chords of mine it has struck.
 
 
 
@@ -37,7 +37,7 @@ Strength and flexibility are two sides of the same coin. *Don’t put all your e
 
 In Go, you can treat stones like contracts; a stone you placed on the board is saying *I could earn you points over here*. Playing stones all around the board makes a lot of claims to various territories, but over time you’ll find only some of those pay off. Whereas placing stones in the same area strengthen each other by becoming harder to surround or split apart, and keep good on that contract.
 
-Below, black makes a claim to the dots of territory using these stones, hoping to win these points. But guess what, there’s another player whose job it is to disagree with them.
+Below, black makes a claim to the square dots of territory using these stones, hoping to win these points. But guess what, there’s another player whose job it is to disagree with them.
 
 ![Some examples of terriroty](/images/go-possibles.png)
 
@@ -61,7 +61,7 @@ If you have options, opportunity lies everywhere, but picking one direction will
 
 If you decide earlier than you need to, you will lose the chance to change your mind in the period before all options become unavailable. 
 
-In the example below, white has played the stone at A, threatening to take a large territory on the top right side, and you have a number of choices to deal with it directly (numbered 1 to 5). However, making a decision now will have major repercussions for the rest of the board, and more importantly, *it isn’t urgent.* So instead, black plays elsewhere and thinks about claiming territory at B. The outcome of the little fight over territory leads to a situation where a stone placed at C would help score black 4 points in the center and directly put pressure on A. 
+In the example below, white has played the stone at A, threatening to take a large territory on the top right side, and you have a number of choices to deal with it directly (numbered 1 to 5). However, making a decision now will have major repercussions for the rest of the board, and more importantly, *it isn’t urgent.* So instead, black plays elsewhere and thinks about claiming territory at B. The outcome of the little fight over territory leads to a situation where a stone placed at C would help score black 4 points in the center *and* directly put pressure on A. 
 
 ![possible sequence](/images/go-decision.png)
 

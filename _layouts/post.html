@@ -3,7 +3,7 @@ layout: default
 title: "none"
 ---
 <head>
-	<meta description="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
+	<meta name="description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
 	<!-- facebook -->
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />

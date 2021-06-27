@@ -4,10 +4,10 @@ title: "none"
 ---
 </body>
 <head>
-	<meta name="description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
+	<meta description="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
 	<!-- facebook -->
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | replace: ':'  , ' -' | capitalize }}" />
+	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />
 	<meta property="og:description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}"/>
 	<meta property="og:image" content="https://www.sunlightafterdark.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png" />
 
@@ -15,19 +15,18 @@ title: "none"
 	<meta name="twitter:description" content="{{content | strip_html | strip_newlines | truncate: 190  | capitalize }}">
 	<meta name="twitter:image" content="https://www.sunlightafterdark.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 </head>
-
+<body>
 <!-- for facebook to find a preview -->
 <img style="display: none;" src="/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 
 <div class="post-head center-col flex-all">
-	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/'' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 	</div>
 	<div class="post-title">
 		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
 		<small class="flex-right">{{ page.date | date: "%-d %B %Y" }}</small>
 	</div>
 </div>
-<body>
 
 <div class="post-text center-col flex-all">
 {{ content }}
@@ -38,6 +37,7 @@ title: "none"
 </div>
 
 <div class="neighbour-posts center-col flex-all">
+
 	<div class="flex-left">
 	
 	    {% if page.previous.url %}

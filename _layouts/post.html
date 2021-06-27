@@ -2,11 +2,12 @@
 layout: default
 title: "none"
 ---
+</body>
 <head>
-	<meta description="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
+	<meta name="description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
 	<!-- facebook -->
 	<meta property="og:type" content="article" />
-	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}" />
+	<meta property="og:title" content="{{page.id | slice: 12, 100  | replace: '-'  , ' ' | replace: ':'  , ' -' | replace: ‘&#58’, ‘&#58;’ | capitalize }}" />
 	<meta property="og:description" content="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}"/>
 	<meta property="og:image" content="https://www.sunlightafterdark.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png" />
 
@@ -19,13 +20,14 @@ title: "none"
 <img style="display: none;" src="/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 
 <div class="post-head center-col flex-all">
-	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/'' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 	</div>
 	<div class="post-title">
-		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
+		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | replace: ‘&#58’, ‘&#58;’| capitalize }}</h5>
 		<small class="flex-right">{{ page.date | date: "%-d %B %Y" }}</small>
 	</div>
 </div>
+<body>
 
 <div class="post-text center-col flex-all">
 {{ content }}
@@ -47,7 +49,7 @@ title: "none"
 			</div></a>
 
 			<div class="content-preview">
-				<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
+				<a href="{{page.previous.url}}"><h5>{{page.previous.id | slice: 12, 100  | replace: '-'  , ' ' | replace: ‘&#58’, ‘&#58;’ | capitalize | truncate: 30 }}</h5></a>
 				<small>{{ page.previous.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.previous.content | strip_html | truncate: 150 }}</p>
@@ -69,7 +71,7 @@ title: "none"
 			</div></a>
 
 			<div class="content-preview">
-				<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize | truncate: 30 }}</h5></a>
+				<a href="{{page.next.url}}"><h5>{{page.next.id | slice: 12, 100  | replace: '-'  , ' ' | replace: ‘&#58’, ‘&#58;’ | capitalize | truncate: 30 }}</h5></a>
 				<small>{{ page.next.date | date: "%-d %B %Y" }}</small>
 				<div class="text-preview">
 					<p>{{ page.next.content | strip_html | truncate: 150 }}</p>

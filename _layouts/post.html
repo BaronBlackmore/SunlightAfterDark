@@ -2,7 +2,6 @@
 layout: default
 title: "none"
 ---
-</body>
 <head>
 	<meta description="{{content | strip_html | strip_newlines | truncate: 190 | capitalize }}">
 	<!-- facebook -->
@@ -15,7 +14,6 @@ title: "none"
 	<meta name="twitter:description" content="{{content | strip_html | strip_newlines | truncate: 190  | capitalize }}">
 	<meta name="twitter:image" content="https://www.sunlightafterdark.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 </head>
-<body>
 <!-- for facebook to find a preview -->
 <img style="display: none;" src="/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 

@@ -849,7 +849,9 @@ a img:hover{
 		
 	}
 
-
+	.portfolio-frame img{
+		height: max-content;
+	}
 }
 
 @media(max-width: 800px){
@@ -895,7 +897,7 @@ a img:hover{
 
 	#nav-column{
 		position: absolute;
-		top: -28em;
+		top: -31em;
 		left: 0;
 		width: 100%;
 		background-color: #ffe4e9;

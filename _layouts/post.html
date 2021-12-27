@@ -17,8 +17,10 @@ title: "none"
 
 <style type="text/css">
 	#nav{
-		background-image: linear-gradient(to bottom, rgba(0,0,0,0.5) 50%, rgba(0,0,0,0));
-		color: white;
+		background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 33%, rgba(0,0,0,0));
+	}
+	#nav p{
+		color: white;	
 	}
 </style>
 
@@ -28,7 +30,7 @@ title: "none"
 <div class="post-head flex-all">
 	<div class="post-head-image" style="background-image: url('/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 	</div>
-	<div class="post-title">
+	<div class="center-col post-title ">
 		<h5 class="flex-left">{{page.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5>
 		<small class="flex-right">{{ page.date | date: "%-d %B %Y" }}</small>
 	</div>

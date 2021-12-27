@@ -218,7 +218,7 @@
 	/*min-width: 100vh;*/
 	min-height: 100vh;
 	display: flex;
-	flex-direction: c;
+	flex-direction: column;
 	/*max-width: 1400px;*/
 	margin:auto;
 }
@@ -649,7 +649,7 @@ li .content-preview{
 #nav-column{
 	/*position: fixed;*/
 	top: 120px;
-	width: 230px;
+	/*width: 230px;*/
 	/*padding-bottom: 1em;*/
 	display: flex;
 	flex-direction: row;
@@ -660,7 +660,7 @@ li .content-preview{
 }
 
 #nav-column p{
-	padding: 0 1em;
+	padding: 0 0.75em;
 }
 
 
@@ -677,17 +677,18 @@ li .content-preview{
 }
 
 .site-intro{
-	position: fixed;
-	width: 190px;
+	/*position: fixed;
+	width: 120px;
 	text-align: center;
-	padding:20px 20px 0;
+	padding-left:1em;*/
+	padding: 0.75em 1em;
 }
 
 .site-intro img{
 	width: 120px;
 }
 
-.sbpi{
+/*.sbpi{
 	display: flex;
 	flex-direction: column;
 	width: 230px;
@@ -701,7 +702,7 @@ li .content-preview{
 
 .sbpi p{
 	background-color: #ffeff2;
-}
+}*/
 
 .nav-bottom{
 	height: 1000px;
@@ -712,6 +713,11 @@ li .content-preview{
 .social-images img{
 	width: 30px;
 	padding: 5px;
+}
+
+.social-images a{
+	height: 40px;
+	padding: 0 0.5em;
 }
 
 .triangle-list{
@@ -740,6 +746,7 @@ a img:hover{
 .social-images{
 	/*padding-top: 1efm;*/
 	display: flex;
+	padding-left: 0.5em;
 	align-items: center;
 	justify-content: center;
 }
@@ -925,12 +932,12 @@ a img:hover{
 
 	.mob-title{
 		height: auto;
-		padding-left: 1em;
+		padding-left: 0.5em;
 		max-width: 300px;
 	}
 
 	.social-images{
-		padding-top:1em;
+		padding:2em;
 	}
 
 	.site-intro{

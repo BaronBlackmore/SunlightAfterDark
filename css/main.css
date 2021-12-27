@@ -516,7 +516,7 @@
 }
 
 .post-head{
-	padding-top: 2em;
+	/*padding-top: 2em;*/
 }
 
 .post-head-image{
@@ -528,7 +528,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	flex: 0 0 252px;
+	flex: 0 0 332px;
 }
 
 .post-list{
@@ -963,6 +963,7 @@ a img:hover{
 		flex-direction: column;
 		align-items: flex-start;
 		padding: 1em;
+		width: auto;
 	}
 
 	.post-text p{

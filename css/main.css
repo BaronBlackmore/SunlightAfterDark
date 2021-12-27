@@ -218,8 +218,8 @@
 	/*min-width: 100vh;*/
 	min-height: 100vh;
 	display: flex;
-	flex-direction: row;
-	max-width: 1400px;
+	flex-direction: c;
+	/*max-width: 1400px;*/
 	margin:auto;
 }
 
@@ -635,25 +635,32 @@ li .content-preview{
 #nav{
 	display: flex;
 	background-color: #ffe4e9;
-	flex: 0 0 230px;
+	
 	/*justify-content: center;*/
-	flex-direction: column;
+	flex-direction: row;
 	/*padding: 20px;*/
-	align-items: center;
+	/*align-items: center;*/
+	justify-content: space-between;
+	height: 80px;
+	width: 100%;
 
 }
 
 #nav-column{
-	position: fixed;
-	top: 250px;
+	/*position: fixed;*/
+	top: 120px;
 	width: 230px;
-	padding-bottom: 1em;
+	/*padding-bottom: 1em;*/
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	transition: 0.5s;
 	z-index: 5;
 	/*padding:20px;*/
+}
+
+#nav-column p{
+	padding: 0 1em;
 }
 
 
@@ -677,7 +684,7 @@ li .content-preview{
 }
 
 .site-intro img{
-	width: 100%;
+	width: 120px;
 }
 
 .sbpi{
@@ -805,7 +812,7 @@ a img:hover{
 }
 
 @media(min-width: 801px) and (max-width: 1120px){
-	.social-images{
+	/*.social-images{
 		flex-direction: column;
 	}
 	#nav{
@@ -824,7 +831,7 @@ a img:hover{
 
 	.site-intro{
 		width: 120px;
-	}
+	}*/
 
 	.center-col{
 		padding: 0px;
@@ -856,6 +863,9 @@ a img:hover{
 
 @media(max-width: 800px){
 
+
+	
+
 	.no-mobile{
 		display: none;
 	}
@@ -882,6 +892,7 @@ a img:hover{
 
 	#hamburger-icon{
 		display: flex;
+		padding-right: 1em;
 	}
 
 	#nav{
@@ -891,7 +902,7 @@ a img:hover{
 		flex-direction: row;
 		align-items: center;
 		height: 60px;
-		padding: 0 20px;
+		/*padding: 0 20px;*/
 		flex:0 auto;
 	}
 
@@ -902,15 +913,19 @@ a img:hover{
 		width: 100%;
 		background-color: #ffe4e9;
 		padding-bottom: 0;
+		flex-direction: column;
 	}
 
 	.nav-bottom{
 		height: 100px;
 	}
+	#nav-column p{
+		padding: 1em 0 0.5em 0;
+	}
 
 	.mob-title{
 		height: auto;
-		padding-right: 2em;
+		padding-left: 1em;
 		max-width: 300px;
 	}
 

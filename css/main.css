@@ -217,8 +217,8 @@
 #whole-page{
 	/*min-width: 100vh;*/
 	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	/*max-width: 1400px;*/
 	margin:auto;
 }
@@ -291,24 +291,27 @@
 	background-color: #2e142c;
 }
 
+/*the narrow column*/
 .center-col{
 	max-width: 720px;
-	margin: auto;
-	background-color: white;
+	width: 100%;
+	margin: auto;	
 	padding-left: 20px;
 	padding-right: 20px;
 	display: flex;
 	flex-direction: column;
-	width: 100%;
+
+	/*background-color: white;*/
 }
 
+/*the wide column*/
 .portfolio-column{
 	max-width: 1000px;
+	margin: auto;
 	padding-left: 20px;
 	padding-right: 20px;
 	display: flex;
 	flex-direction: column;
-	margin: auto;
 }
 
 .portfolio-column img{
@@ -467,6 +470,12 @@
 #main{
 	min-height: 100vh;
 	width: 100%;
+	/*to add space below the nav*/
+	padding-top: 80px;
+
+	/*to include multiple column types*/
+	display: flex;
+	flex-direction: column;
 }
 
 .post-title{
@@ -634,7 +643,7 @@ li .content-preview{
 
 #nav{
 	display: flex;
-	background-color: #ffe4e9;
+	/*background-color: #ffe4e9;*/
 	
 	/*justify-content: center;*/
 	flex-direction: row;
@@ -643,6 +652,7 @@ li .content-preview{
 	justify-content: space-between;
 	height: 80px;
 	width: 100%;
+	position: absolute;
 
 }
 
@@ -717,7 +727,7 @@ li .content-preview{
 
 .social-images a{
 	height: 40px;
-	padding: 0 0.5em;
+	padding: 0 0.1em;
 }
 
 .triangle-list{
@@ -746,7 +756,7 @@ a img:hover{
 .social-images{
 	/*padding-top: 1efm;*/
 	display: flex;
-	padding-left: 0.5em;
+	padding: 0 0.5em;
 	align-items: center;
 	justify-content: center;
 }
@@ -882,7 +892,7 @@ a img:hover{
 	}
 
 	#whole-page{
-		flex-direction: column;
+		/*flex-direction: column;*/
 	}
 
 	.center-col{
@@ -919,7 +929,7 @@ a img:hover{
 		left: 0;
 		width: 100%;
 		background-color: #ffe4e9;
-		padding-bottom: 0;
+		padding: 1em 0;
 		flex-direction: column;
 	}
 
@@ -932,7 +942,7 @@ a img:hover{
 
 	.mob-title{
 		height: auto;
-		padding-left: 0.5em;
+		padding: 0 1em 0 0.5em;
 		max-width: 300px;
 	}
 

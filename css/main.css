@@ -759,8 +759,10 @@ li .content-preview{
 	/*fill: green;*/
 }
 
-.icon-link{
-	fill: green;
+.icon-link-email{
+	background-color: red;
+    -webkit-mask-image: url(/images/link_email.svg);
+    mask-image: url(/images/link_email.svg);
 }
 
 .social-images a{

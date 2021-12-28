@@ -374,7 +374,7 @@
 	align-items: flex-start;*/
 }
 
-.portfolio-intro .center-col{
+.portfolio-intro .portfolio-column{
 	flex-direction: row;
 	justify-content: space-between;
 }
@@ -1177,8 +1177,8 @@ a img:hover{
 		display: none;
 	}
 		
-	.portfolio-intro .center-col{
-	flex-direction: column-reverse;
+	.portfolio-intro .portfolio-column{
+	flex-direction: column;
 	padding: 0 1em;
 	}
 

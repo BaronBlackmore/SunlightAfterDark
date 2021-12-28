@@ -756,6 +756,11 @@ li .content-preview{
 .social-images img{
 	width: 30px;
 	padding: 5px;
+	/*fill: green;*/
+}
+
+.icon-link{
+	fill: green;
 }
 
 .social-images a{

@@ -65,6 +65,7 @@
 
 	h1{
 		font-size: 4.209em;
+		font-weight: 900;
 	}
 
 	h2{
@@ -360,6 +361,36 @@
 	padding-bottom: 0;
 	margin: 0;
 }
+
+.portfolio-intro{
+	padding: 100px 0;
+	width: 100%;
+	background-color: #de2a7e;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+.portfolio-pitch{
+	max-width: 720px;
+}
+
+.portfolio-pitch h5{
+	color: white;
+}
+
+.portfolio-pitch h2{
+	color: white;
+}
+
+.portfolio-me{
+
+}
+
+.portfolio-me h5{
+	color: white;
+}
+
 
 .big-frame{
 	width: 100%;

@@ -979,13 +979,10 @@ a img:hover{
 	}
 
 	#nav{
-		height: 60px;
 		display: flex;
 		justify-content: space-between;
 		flex-direction: row;
 		align-items: center;
-		height: 60px;
-		/*padding: 0 20px;*/
 		flex:0 auto;
 	}
 

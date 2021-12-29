@@ -765,6 +765,10 @@ li .content-preview{
     margin: 0 0.1em;
 }
 
+.icon-svg:hover{
+	opacity: 70%;
+}
+
 .icon-title{
 	-webkit-mask-image: url(/images/title.svg);
     mask-image: url(/images/title.svg);
@@ -990,7 +994,7 @@ a img:hover{
 		top: -31em;
 		left: 0;
 		width: 100%;
-		background-color: #ffe4e9;
+		background-color: white;
 		padding: 1em 0;
 		flex-direction: column;
 	}

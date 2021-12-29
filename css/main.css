@@ -759,11 +759,33 @@ li .content-preview{
 	/*fill: green;*/
 }
 
-.icon-link-email{
+.icon-svg{
 	background-color: red;
+}
+
+.icon-title{
+	-webkit-mask-image: url(/images/title.svg);
+    mask-image: url(/images/title.svg);
+}
+
+.icon-link-email{
     -webkit-mask-image: url(/images/link_email.svg);
     mask-image: url(/images/link_email.svg);
-    width: 40px;
+    	width: 40px;
+    height: 40px;
+}
+
+.icon-link-linkedin{
+ -webkit-mask-image: url(/images/link_linkedin.svg);
+    mask-image: url(/images/link_linkedin.svg);
+    	width: 40px;
+    height: 40px;
+}
+
+.icon-link-twitter{
+	 -webkit-mask-image: url(/images/link_twitter.svg);
+    mask-image: url(/images/link_twitter.svg);
+    	width: 40px;
     height: 40px;
 }
 

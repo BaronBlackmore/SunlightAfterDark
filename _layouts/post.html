@@ -15,13 +15,23 @@ title: "none"
 	<meta name="twitter:image" content="https://www.sunlightafterdark.com/images/{{ page.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png">
 </head>
 
+<!-- change nav colors -->
 <style type="text/css">
 	#nav{
 		background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 33%, rgba(0,0,0,0));
+	}	
+
+	#nav-column p{
+		color: white;
 	}
-	#nav p{
-		color: white;	
+	.icon-svg, .bar1, .bar2, .bar3, .icon-title{
+		background-color: white;
 	}
+	@media(max-width: 800px){
+		#nav-column{
+			background-color: #de2a7e;
+		}
+	}	
 </style>
 
 <!-- for facebook to find a preview -->

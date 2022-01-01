@@ -869,12 +869,12 @@ a img:hover{
 	margin: auto;
 }
 
-@media(max-width: 1080px){
+@media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;
 		align-items: center;
-
 	}
+
 }
 
 @media(min-width: 801px) and (max-width: 1120px){
@@ -1165,6 +1165,9 @@ a img:hover{
 		width: initial;
 	}
 
+	.frontpage-col{
+		flex-direction: column;
+	}
 }
 
 /*safari only*/

@@ -6,8 +6,8 @@ layout: default
 <div class="nav-pad"></div>
 
 
-<div class="center-col post-list">
-	<div class="page-top">
+<div class="frontpage-col">
+	<!-- <div class="page-top">
 		<h5>What is this site</h5>
 		<div class="line"></div>
 	</div>
@@ -22,11 +22,28 @@ layout: default
 			</div>
 		</div>
 	</div>
+ -->
+
+ 	<!-- latest project -->
+ 	<div class="frontpage-item">
+	<div>
+		<h5>Latest Client Project</h5>
+		<div class="line"></div>
+	</div>
+	<a href=""><div class="image-preview" style="background-image: url('images/portfolio/nhsx-banner.png')">
+		</div></a>
+	
+	<h5>Preloaded</h5>
+	<div class="text-preview">
+	<a class="triangle-link" href=""><p>View Project &#x25b6;&#xfe0e;</p></a>
+	</div>
+	</div>
 
 
 
-
-	<div class="page-top">
+	<!-- show latest post -->
+	<div class="frontpage-item">
+	<div>
 		<h5>Latest Blog Post</h5>
 		<div class="line"></div>
 	</div>
@@ -37,7 +54,7 @@ layout: default
 		<a href="{{post.url}}"><div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
 		</div></a>
 
-		<div class="content-preview">
+		<div>
 			<a href="{{post.url}}"><h5 style="padding: 0.5em 0">{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
 			<small>{{ post.date | date: "%-d %B %Y" }}</small>
 			<div class="text-preview">
@@ -47,9 +64,11 @@ layout: default
 		</div>
 
 	</div>
-
 	{% endfor %} 
+	</div>
 
+
+	<!-- block of nothing -->
 	<div class="whitespace"></div>
 
 

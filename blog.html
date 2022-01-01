@@ -15,10 +15,6 @@ layout: default
 <div class="nav-pad"></div>
 
 <div class="flex-all center-col post-list">
-<!-- 	<div class="page-top">
-		<h5>Blog Posts</h5>
-		<div class="line"></div>
-	</div> -->
 	
 	<ul>
 	{% for post in site.posts %} 
@@ -30,7 +26,7 @@ layout: default
 				</a>
 
 				<div class="content-preview">
-					<a href="{{post.url}}"><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>
+					<!-- <a href="{{post.url}}"> --><h5>{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5><!-- </a> -->
 					<small>{{ post.date | date: "%-d %B %Y" }}</small>
 					<div class="text-preview">
 						<p>{{ post.content | strip_html | truncate: 150 }}</p>

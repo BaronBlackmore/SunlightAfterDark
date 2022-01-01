@@ -373,6 +373,11 @@
 	color: white;
 }
 
+.portfolio-about{
+	 display:flex; 
+	 justify-content: space-between;
+}
+
 
 .big-frame{
 	width: 100%;
@@ -1129,6 +1134,9 @@ a img:hover{
 		padding-right: 1em;
 	}
 
+	.portfolio-about{
+		flex-direction: column;
+	}
 
 }
 

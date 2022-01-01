@@ -1124,6 +1124,12 @@ a img:hover{
 	}
 
 
+	.portfolio-intro{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+
 }
 
 /*safari only*/

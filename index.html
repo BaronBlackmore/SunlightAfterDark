@@ -51,8 +51,8 @@ layout: default
 	{% for post in site.posts limit:1 %} 
 	<div class="latest-post">
 
-		<a href="{{post.url}}"><div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
-		</div></a>
+		<!-- <a href="{{post.url}}"> --><div class="image-preview" style="background-image: url('images/{{ post.url | replace: '/' , '-' | remove_first: '-' | remove: '.html' }}.png');">
+		</div><!-- </a> -->
 
 		<div>
 			<a href="{{post.url}}"><h5 style="padding: 0.5em 0">{{post.id | slice: 12, 100  | replace: '-'  , ' ' | capitalize }}</h5></a>

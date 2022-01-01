@@ -365,44 +365,6 @@
 	margin: 0;
 }
 
-.portfolio-intro{
-	padding: 135px 0 100px 0;
-	width: 100%;
-	background-color: #de2a7e;
-/*	display: flex;
-	flex-direction: row;
-	align-items: flex-start;*/
-}
-
-.portfolio-intro .portfolio-column{
-	flex-direction: row;
-	justify-content: space-between;
-}
-
-.portfolio-pitch{
-	/*max-width: 720px;*/
-	flex: 0 1 720px;
-}
-
-.portfolio-pitch h5{
-	color: white;
-	text-transform: inherit;
-	padding-top: 0.5em;
-}
-
-.portfolio-pitch h2{
-	color: white;
-}
-
-.portfolio-me{
-
-}
-
-.portfolio-me h5{
-	color: white;
-}
-
-
 .big-frame{
 	width: 100%;
 	display: flex;
@@ -1159,34 +1121,6 @@ a img:hover{
 		height: 100% !important;
 	}
 
-
-/*	.portfolio-blogpage h5{
-		padding-left: 0;
-		padding-right: 0;
-	}*/
-
-	/*.portfolo-desc-container p{
-		padding-left: 0;
-		padding-right: 0;
-	}*/
-
-	/*.portfolio-blogpage h5{
-		padding-left: 0.75em;
-		padding-right: 0.75em;
-	}
-
-	.portfolio-blogpage p{
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-
-
-	.portfolio-blogpage .line{
-		padding-left: 1em;
-		padding-right: 1em;
-	}
-*/
-
 	.portfolio-column .post-title{
 		padding-left: 1em;
 		padding-right: 1em;
@@ -1196,27 +1130,6 @@ a img:hover{
 		display: none;
 	}
 
-
-	.portfolio-intro{
-		padding: 100px 0 100px 0;
-	}
-			
-	.portfolio-intro .portfolio-column{
-	flex-direction: column;
-	padding: 0 1em;
-	}
-
-	.portfolio-pitch{
-		flex: 0;
-	}
-
-	.portfolio-pitch h1{
-		font-size: 3.157em;
-	}
-
-	.portfolio-me a h5{
-		padding-bottom: 2em;
-	}
 
 }
 

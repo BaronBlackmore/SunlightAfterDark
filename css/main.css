@@ -68,7 +68,6 @@
 		font-weight: 900;
 		color: white;
 		line-height: 1em;
-		padding-bottom: 0.5em;
 	}
 
 	h2{
@@ -364,6 +363,16 @@
 	padding-bottom: 0;
 	margin: 0;
 }
+
+
+.portfolio-intro{
+	background-color: #DE2A7E;
+	padding: 130px 0 70px 0;
+}
+.portfolio-intro h5,h1{
+	color: white;
+}
+
 
 .big-frame{
 	width: 100%;
@@ -692,22 +701,6 @@ li .content-preview{
 .site-intro img{
 	width: 120px;
 }
-
-/*.sbpi{
-	display: flex;
-	flex-direction: column;
-	width: 230px;
-	position: fixed;
-	top:120px;
-}
-
-.sbpi img{
-	width: 100%;
-}
-
-.sbpi p{
-	background-color: #ffeff2;
-}*/
 
 .nav-bottom{
 	height: 1000px;

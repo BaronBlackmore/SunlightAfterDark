@@ -318,6 +318,7 @@
 	padding-left: 1em;
 	padding-right: 1em;
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 }
 
@@ -1156,6 +1157,10 @@ a img:hover{
 
 	.portfolio-about{
 		flex-direction: column;
+	}
+
+	.frontpage-item{
+		width: auto;
 	}
 
 }

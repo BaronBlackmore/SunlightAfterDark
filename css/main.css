@@ -869,6 +869,12 @@ a img:hover{
 	margin: auto;
 }
 
+.div-breaker{
+	position: absolute;
+	width: 100%;
+	z-index: 4;
+}
+
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;
@@ -1128,7 +1134,7 @@ a img:hover{
 		margin-bottom: 1em;
 	}
 
-
+	/*literally just mobile padding smh*/
 	.page-top{
 		padding-left: 1em;
 		padding-right: 1em;
@@ -1168,6 +1174,11 @@ a img:hover{
 	.frontpage-col{
 		flex-direction: column;
 	}
+
+	.div-breaker{
+	position: inherit;
+	}
+
 }
 
 /*safari only*/

@@ -882,6 +882,25 @@ a img:hover{
 	justify-content: center;
 }
 
+.client-info{
+	width: 100%;
+}
+
+.client-info-container{
+	width: 720px;
+	max-width: 100vw;
+	margin: auto;
+}
+
+.wide-pic-holder{
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.wide-pic-holder img{
+	width: 100%;
+}
+
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;
@@ -941,9 +960,6 @@ a img:hover{
 }
 
 @media(max-width: 800px){
-
-
-	
 
 	.no-mobile{
 		display: none;
@@ -1130,10 +1146,6 @@ a img:hover{
 	.portfolo-desc-container{
 		padding:0 1em;
 	}
-/*
-	.portfolo-desc-container h5{
-		padding:0 1em;
-	}*/
 
 	.client-logo{
 		width: 100%;
@@ -1190,6 +1202,10 @@ a img:hover{
 	.div-breaker{
 	position: inherit;
 	height: auto;
+	}
+
+	.client-info-container{
+	width: 100vh;
 	}
 
 }

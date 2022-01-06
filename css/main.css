@@ -870,9 +870,10 @@ a img:hover{
 }
 
 .div-breaker{
-	position: absolute;
+	position: relative;
 	width: 100%;
 	z-index: 4;
+	height: 0;
 }
 
 @media(min-width: 801px) and (max-width: 1080px){
@@ -1136,6 +1137,11 @@ a img:hover{
 
 	/*literally just mobile padding smh*/
 	.page-top{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+
+	.mobile-sidepad{
 		padding-left: 1em;
 		padding-right: 1em;
 	}

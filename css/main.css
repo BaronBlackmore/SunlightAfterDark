@@ -876,6 +876,12 @@ a img:hover{
 	height: 0;
 }
 
+.div-breaker-insert{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;
@@ -1183,6 +1189,7 @@ a img:hover{
 
 	.div-breaker{
 	position: inherit;
+	height: auto;
 	}
 
 }

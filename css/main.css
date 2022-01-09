@@ -889,7 +889,7 @@ a img:hover{
 }
 
 .div-breaker-insert img{
-	filter: drop-shadow(5px 5px 20px #2222226b);
+	filter: drop-shadow(5px 10px 20px #2222226b);
 }
 
 .client-info{
@@ -1167,10 +1167,10 @@ margin-bottom: 1em;
 	}
 
 	.client-logo{
-		/*width: 100%;*/
+		width: 90vw
 		height: 2.5em;
 		margin-bottom: 1em;
-		margin-left: 20px;
+		margin-left: 5vw;
 	}
 
 	/*literally just mobile padding smh*/
@@ -1231,8 +1231,13 @@ margin-bottom: 1em;
 	margin-bottom: 0.5em;
 	}
 
-	.client-info-container.job-description{
-		margin-left: 20px;
+	.client-info-container .job-description{
+		margin-left: 5vw;
+		width: 95vw;
+	}
+
+	.div-breaker-insert img{
+	filter: none;
 	}
 
 }

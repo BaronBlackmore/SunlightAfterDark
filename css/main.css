@@ -227,6 +227,13 @@
 }
 
 
+.grey-box{
+	background-color: ##F0F4F5;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+
 .show{
 	display: flex !important;
 	height: 500px !important;
@@ -879,6 +886,10 @@ a img:hover{
 .div-breaker-insert{
 	width: 100%;
 	text-align: center;
+}
+
+.div-breaker-insert img{
+	filter: drop-shadow(5px 5px 20px #2222226b);
 }
 
 .client-info{

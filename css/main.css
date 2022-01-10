@@ -46,6 +46,15 @@
 
 /*---------------------------end reset------------------------*/
 
+@font-face {
+font-family: "DomaineText";
+/*src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.eot");*/
+src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("woff"),
+src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("truetype"),
+url("https://sunlightafterdark.com/fonts/DomaineText-Bold.otf") format("opentype"),
+url("https://sunlightafterdark.com/fonts/DomaineText-Bold.svg") format("svg");
+}
+
 /*default html*/
 
 	html{
@@ -89,6 +98,8 @@
 		line-height: 1.4em;
 		text-transform: capitalize;
 		letter-spacing: 0.02em;
+		font-family: "DomaineText", Times, serif;
+		color: #de2a7e;
 	}
 
 	.post-text h5{
@@ -389,12 +400,12 @@
 
 
 .portfolio-intro{
-	background-color: #DE2A7E;
+	/*background-color: #DE2A7E;*/
 	padding: 130px 0 70px 0;
 }
-.portfolio-intro h5,h1{
+/*.portfolio-intro h5,h1{
 	color: white;
-}
+}*/
 
 .portfolio-about{
 	 display:flex; 

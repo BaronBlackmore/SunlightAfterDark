@@ -696,7 +696,7 @@ li .content-preview{
 
 /*footer*/
 	#foot{
-
+		padding: 2em;
 	}
 
 	.foot-content{
@@ -706,15 +706,18 @@ li .content-preview{
 		width: 100%;
 		justify-content: space-between;
 		padding: 1em;
+		margin: auto;
 	}
 
-	.foot-left{
-
+	.foot-section p{
+	   padding: 0;
 	}
 
-	.foot-right{
-
+	.foot-section .social-images{
+		justify-content: flex-start;
+		padding: 0.5em 0;
 	}
+	
 
 #nav{
 	display: flex;
@@ -1073,7 +1076,7 @@ a img:hover{
 		max-width: 300px;
 	}
 
-	.social-images{
+	.nav-column .social-images{
 		padding:2em;
 	}
 

@@ -938,6 +938,7 @@ a img:hover{
 
 .div-breaker-insert img{
 	filter: drop-shadow(5px 10px 20px #2222226b);
+	max-width: 95vw;
 }
 
 .client-info{
@@ -1286,6 +1287,7 @@ a img:hover{
 
 	.div-breaker-insert img{
 	filter: none;
+	width: 90vw;
 	}
 
 	.foot-content{

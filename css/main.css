@@ -98,6 +98,8 @@
 		/*text-transform: capitalize;*/
 		letter-spacing: 0.02em;
 		font-family: 'dm_serif_textregular', Times, serif;
+		/*color: #564755;*/
+		color: #372d36;
 	}
 
 	.post-text h5{
@@ -700,7 +702,7 @@ li .content-preview{
 	.foot-content{
 		display: flex;
 		flex-direction: row;
-		max-width: 720px;
+		max-width: 24em;
 		width: 100%;
 		justify-content: space-between;
 		margin: auto;

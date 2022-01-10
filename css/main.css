@@ -46,13 +46,13 @@
 
 /*---------------------------end reset------------------------*/
 
-@font-face {
+/*@font-face {
     font-family: 'dm_serif_textregular';
     src: url('fonts/dmseriftext-regular-webfont.woff2') format('woff2'),
          url('fonts/dmseriftext-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}
+}*/
 
 /*default html*/
 
@@ -97,7 +97,7 @@
 		line-height: 1.4em;
 		/*text-transform: capitalize;*/
 		letter-spacing: 0.02em;
-		font-family: 'dm_serif_textregular', Times, serif;
+		font-family: 'dm_serif', Times, serif;
 		/*color: #564755;*/
 		color: #372d36;
 	}
@@ -205,6 +205,10 @@
 		width: 100%;
 		border: none;
 		height: 50px;
+	}
+
+	i{
+		font-style: italic;
 	}
 
 	.button{

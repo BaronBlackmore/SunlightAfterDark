@@ -3,10 +3,19 @@
 
 
 @font-face {
-    font-family: 'dm_serif_textregular';
+    font-family: 'dm_serif';
     src: url('dmseriftext-regular-webfont.woff2') format('woff2'),
          url('dmseriftext-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'dm_serif';
+    src: url('dmseriftext-italic-webfont.woff2') format('woff2'),
+         url('dmseriftext-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
 
 }

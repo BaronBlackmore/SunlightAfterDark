@@ -47,12 +47,13 @@
 /*---------------------------end reset------------------------*/
 
 @font-face {
-font-family: "DomaineText";
-src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.eot");
-src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("woff"),
-src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.ttf") format("truetype"),
-url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.otf") format("opentype"),
-url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.svg") format("svg");
+	font-family: DomaineText;
+	src: url('fonts/DomaineText-Bold.woff') format('woff'),
+		 url('fonts/DomaineText-Bold.ttf') format('truetype')
+		 url('fonts/DomaineText-Bold.otf') format('opentype'),
+		 url('fonts/DomaineText-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
 
 /*default html*/

@@ -234,7 +234,9 @@
 		background-color: #ffe4e9;	
 	}
 
-	
+	a div:hover{
+		opacity: 50%;
+	}
 
 #whole-page{
 	/*min-width: 100vh;*/

@@ -46,6 +46,14 @@
 
 /*---------------------------end reset------------------------*/
 
+@font-face {
+    font-family: 'dm_serif_textregular';
+    src: url('fonts/dmseriftext-regular-webfont.woff2') format('woff2'),
+         url('fonts/dmseriftext-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /*default html*/
 
 	html{

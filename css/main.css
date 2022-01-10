@@ -692,10 +692,9 @@ li .content-preview{
 	.foot-content{
 		display: flex;
 		flex-direction: row;
-		max-width: 1080px;
+		max-width: 720px;
 		width: 100%;
 		justify-content: space-between;
-		padding: 1em;
 		margin: auto;
 	}
 
@@ -828,7 +827,6 @@ a img:hover{
 }
 
 .social-images{
-	/*padding-top: 1efm;*/
 	display: flex;
 	padding: 0 0.5em;
 	align-items: center;
@@ -1066,7 +1064,7 @@ a img:hover{
 		max-width: 300px;
 	}
 
-	.nav-column .social-images{
+	#nav-column .social-images{
 		padding:2em;
 	}
 
@@ -1266,6 +1264,13 @@ a img:hover{
 	filter: none;
 	}
 
+	.foot-content{
+		flex-direction: column;
+	}
+
+	.foot-section{
+		padding-bottom: 1em;
+	}
 }
 
 /*safari only*/

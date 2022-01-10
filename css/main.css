@@ -48,11 +48,11 @@
 
 @font-face {
 font-family: "DomaineText";
-/*src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.eot");*/
-src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("woff"),
-src: url("https://sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("truetype"),
-url("https://sunlightafterdark.com/fonts/DomaineText-Bold.otf") format("opentype"),
-url("https://sunlightafterdark.com/fonts/DomaineText-Bold.svg") format("svg");
+src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.eot");
+src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.woff") format("woff"),
+src: url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.ttf") format("truetype"),
+url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.otf") format("opentype"),
+url("https://www.sunlightafterdark.com/fonts/DomaineText-Bold.svg") format("svg");
 }
 
 /*default html*/
@@ -99,7 +99,6 @@ url("https://sunlightafterdark.com/fonts/DomaineText-Bold.svg") format("svg");
 		text-transform: capitalize;
 		letter-spacing: 0.02em;
 		font-family: "DomaineText", Times, serif;
-		color: #de2a7e;
 	}
 
 	.post-text h5{
@@ -692,6 +691,28 @@ li .content-preview{
 	.change .bar3 {
 	  -webkit-transform: rotate(45deg) translate(-8px, -8px);
 	  transform: rotate(45deg) translate(-8px, -8px);
+	}
+
+/*footer*/
+	#foot{
+
+	}
+
+	.foot-content{
+		display: flex;
+		flex-direction: row;
+		max-width: 1080px;
+		width: 100%;
+		justify-content: space-between;
+		padding: 1em;
+	}
+
+	.foot-left{
+
+	}
+
+	.foot-right{
+
 	}
 
 #nav{

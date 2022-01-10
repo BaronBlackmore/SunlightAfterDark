@@ -211,6 +211,10 @@
 		font-style: italic;
 	}
 
+	strong{
+		font-weight: 500;
+	}
+
 	.button{
 		border: 2px solid #de2a7e;
 		font-size: 1em;
@@ -513,6 +517,10 @@
 .contact-info a{
 	display: flex;
 	align-items: center;
+}
+
+.contact-info p{
+	padding: 0.25em 0;
 }
 
 .contact-info img{

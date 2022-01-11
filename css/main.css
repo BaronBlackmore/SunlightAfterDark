@@ -938,7 +938,7 @@ a img:hover{
 }
 
 .div-breaker-insert img{
-	filter: drop-shadow(5px 10px 20px #2222226b);
+	filter: drop-shadow(3px 10px 10px #22222254);
 	max-width: 95vw;
 }
 

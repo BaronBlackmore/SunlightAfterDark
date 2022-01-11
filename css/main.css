@@ -97,9 +97,10 @@
 		line-height: 1.4em;
 		/*text-transform: capitalize;*/
 		letter-spacing: 0.02em;
-		font-family: 'dm_serif', Times, serif;
-		/*color: #564755;*/
-		color: #372d36;
+		/*font-family: 'dm_serif', Times, serif;*/
+		
+		color: #4d1e3d;
+		font-weight: 300;
 	}
 
 	.post-text h5{
@@ -343,7 +344,7 @@
 }
 
 .frontpage-item{
-	max-width: 720px;
+	max-width: 520px;
 	padding-left: 1em;
 	padding-right: 1em;
 	display: flex;
@@ -973,6 +974,7 @@ a img:hover{
 	.frontpage-col{
 		flex-direction: column;
 		align-items: center;
+
 	}
 
 }
@@ -1262,6 +1264,7 @@ a img:hover{
 
 	.frontpage-item{
 		width: initial;
+		max-width: 720px;
 	}
 
 	.frontpage-col{

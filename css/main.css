@@ -99,8 +99,11 @@
 		letter-spacing: 0.02em;
 		/*font-family: 'dm_serif', Times, serif;*/
 		
-		color: #4d1e3d;
-		font-weight: 300;
+		/*color: #4d1e3d;*/
+		/*font-weight: 300;*/
+
+		font-weight: 400;
+		color: #7b6272;
 	}
 
 	.post-text h5{
@@ -132,10 +135,7 @@
 	a{
 		color: #de2a7e;
 		text-decoration: none;
-	}
 
-	/*text links*/
-	a p{		
 		text-transform: uppercase;
 		font-weight: 300;
 		font-size: 0.75em;
@@ -631,6 +631,7 @@
 
 .dark-text{
 	color: #553e53;
+	font-weight: bold;
 }
 
 

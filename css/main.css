@@ -116,6 +116,10 @@
 		font-size: 0.75em;
 		color: #372d36;
 		padding-bottom: 0.5em;
+		text-transform: uppercase;
+		font-weight: 300;
+			letter-spacing: 0.1em;
+
 	}
 
 	label{
@@ -128,6 +132,14 @@
 	a{
 		color: #de2a7e;
 		text-decoration: none;
+	}
+
+	/*text links*/
+	a p{		
+		text-transform: uppercase;
+		font-weight: 300;
+		font-size: 0.75em;
+		letter-spacing: 0.1em;
 	}
 
 	a:hover{

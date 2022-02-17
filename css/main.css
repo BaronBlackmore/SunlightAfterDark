@@ -260,6 +260,9 @@
 	margin:auto;
 }
 
+.mobile-only{
+	display: none;
+}
 
 .grey-box{
 	background-color: #F0F4F5;
@@ -1046,6 +1049,10 @@ align-items: center;
 }
 
 @media(max-width: 800px){
+
+	.mobile-only{
+		display: inherit;
+	}
 
 	.no-mobile{
 		display: none;

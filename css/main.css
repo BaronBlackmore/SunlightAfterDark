@@ -991,10 +991,18 @@ align-items: center;
 }
 
 .row-to-col{
+	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-evenly;
+}
+.row-to-col img{
+	max-width: fit-content;
 }
 
+.smallbox{
+	width: 80px;
+	height: 80px;
+}
 
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
@@ -1332,7 +1340,9 @@ align-items: center;
 	}
 
 	.row-to-col{
-	flex-direction: column;}
+	flex-direction: column;
+	align-items: center;
+}
 
 }
 

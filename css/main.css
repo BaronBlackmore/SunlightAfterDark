@@ -532,6 +532,7 @@
 	/*text-align: center;*/
 }
 
+
 .contact-info a{
 	display: flex;
 	align-items: center;
@@ -989,6 +990,12 @@ align-items: center;
 
 }
 
+.row-to-col{
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;
@@ -1323,6 +1330,10 @@ align-items: center;
 	.foot-section{
 		padding-bottom: 1em;
 	}
+
+	.row-to-col{
+	flex-direction: column;}
+
 }
 
 /*safari only*/

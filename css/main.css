@@ -993,15 +993,15 @@ align-items: center;
 .row-to-col{
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
+	justify-content: center;
 }
 .row-to-col img{
 	max-width: fit-content;
 }
 
 .smallbox{
-	width: 80px;
-	height: 80px;
+	width: 35px;
+	height: 35px;
 }
 
 @media(min-width: 801px) and (max-width: 1080px){

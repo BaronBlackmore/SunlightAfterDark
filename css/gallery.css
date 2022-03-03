@@ -21,18 +21,28 @@
 	width: 66.66666%;
 }
 
+.gallery-pic{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+
 .gallery-pic img{
 	width: 100%;
 }
 
 .gallery-corner-info{
 	background-color: #ffffffbd;
-	position: fixed;
+	position: absolute;
 	right: 0;
 	bottom: 0;
 }
 
-.gallery-pic-holder{
+.gallery-corner-info small{
+	padding: 1em;
+}
+
+.gallery-bordered-pic-holder{
 	padding: 4em;
 }
 
@@ -41,6 +51,10 @@
 
 	.gallery-row{
 		flex-direction: column;
+	}
+
+	.gallery-item-half{
+		width: 50%;
 	}
 
 }

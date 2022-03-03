@@ -22,7 +22,7 @@
 }
 
 .gallery-pic img{
-	padding: 1em;
+	width: 100%;
 }
 
 .gallery-corner-info{
@@ -30,6 +30,10 @@
 	position: fixed;
 	right: 0;
 	bottom: 0;
+}
+
+.gallery-pic-holder{
+	padding: 4em;
 }
 
 

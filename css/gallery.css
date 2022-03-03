@@ -22,8 +22,7 @@
 }
 
 .gallery-pic{
-	display: flex;
-	align-items: center;
+	display: flex;	align-items: center;
 	position: relative;
 }
 
@@ -54,7 +53,15 @@
 	}
 
 	.gallery-item-half{
-		width: 50%;
+		width: 100%;
+	}
+
+	.gallery-item-third{
+		width: 100%;
+	}
+
+	.gallery-item-twothird{
+		width: 100%;
 	}
 
 }

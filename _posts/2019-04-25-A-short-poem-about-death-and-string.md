@@ -16,4 +16,4 @@ a coat that heaven faced.
 To lead and find the misaligned,  
 unto the spool embraced.  
 
-![pomp concept illustration](/images/2019-04-25-Pomp&-44-Divider-of-strings.png)
+![pomp concept illustration](/images/2019-04-25-A-short-poem-about-death-and-string.png)

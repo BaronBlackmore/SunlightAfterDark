@@ -1,0 +1,42 @@
+/*css for the gallery page*/
+
+.gallery{
+
+}
+
+.gallery-row{
+	display: flex;
+	flex-direction: row;
+}
+
+.gallery-item-half{
+	width: 50%;
+}
+
+.gallery-item-third{
+	width: 33.33333%;
+}
+
+.gallery-item-twothird{
+	width: 66.66666%;
+}
+
+.gallery-pic img{
+	padding: 1em;
+}
+
+.gallery-corner-info{
+	background-color: #ffffffbd;
+	position: fixed;
+	right: 0;
+	bottom: 0;
+}
+
+
+@media(max-width: 800px){
+
+	.gallery-row{
+		flex-direction: column;
+	}
+
+}

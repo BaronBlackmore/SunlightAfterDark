@@ -100,15 +100,19 @@ padding: 4.5em 2em;
 	}
 
 	.gallery-bordered-pic-holder-left{
-padding:2em;
-}
+	padding:2em;
+	}
 
-.gallery-bordered-pic-holder-right{
-padding:2em;
-}
+	.gallery-bordered-pic-holder-right{
+	padding:2em;
+	}
 
-.gallery-bordered-pic-holder-middle{
-padding: 2em;
-}
+	.gallery-bordered-pic-holder-middle{
+	padding: 2em;
+	}
+
+	.gallery-tallboy{
+		height: 1000px;
+	}
 
 }

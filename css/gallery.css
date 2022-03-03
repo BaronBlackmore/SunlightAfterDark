@@ -4,6 +4,17 @@
 
 }
 
+.gallery-subrow{
+	height: 50%;
+	position: inherit;
+}
+
+.gallery-subrow-container{
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
 .gallery-row{
 	display: flex;
 	flex-direction: row;

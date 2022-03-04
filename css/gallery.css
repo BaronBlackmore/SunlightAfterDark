@@ -8,6 +8,12 @@
 	height: 50%;
 	position: inherit;
 	overflow: clip;
+	display: flex;
+	align-items: center;
+}
+
+.gallery-subrow.gallery-item-half{
+	height: 100%;
 }
 
 .gallery-subrow-container{
@@ -76,6 +82,7 @@ padding: 4.5em 2em;
 	height: 100%;
 	background-image: url("/images/portfolio/wintercast-trail.png");
 	background-size: cover;
+	background-position: center;
 }
 
 @media(max-width: 800px){

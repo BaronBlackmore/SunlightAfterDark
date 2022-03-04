@@ -12,7 +12,7 @@
 	align-items: center;
 }
 
-.gallery-subrow.gallery-item-half{
+.gallery-subrow .gallery-item-half{
 	height: 100%;
 }
 

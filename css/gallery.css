@@ -7,6 +7,7 @@
 .gallery-subrow{
 	height: 50%;
 	position: inherit;
+	overflow: clip;
 }
 
 .gallery-subrow-container{

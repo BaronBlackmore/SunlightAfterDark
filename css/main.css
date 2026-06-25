@@ -818,6 +818,7 @@ li .content-preview{
 	width: 1.7em;
     height: 1.7em;
     margin: 0 0.1em;
+    mask-size: contain;
 }
 
 .icon-svg:hover{

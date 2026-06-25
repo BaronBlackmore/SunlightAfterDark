@@ -841,9 +841,9 @@ li .content-preview{
     mask-image: url(/images/link_linkedin.svg);
 }
 
-.icon-link-twitter{
-	 -webkit-mask-image: url(/images/link_twitter.svg);
-    mask-image: url(/images/link_twitter.svg);
+.icon-link-bluesky{
+	 -webkit-mask-image: url(/images/link_bluesky.svg);
+    mask-image: url(/images/link_bluesky.svg);
 }
 
 .social-images a{

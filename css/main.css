@@ -1343,8 +1343,8 @@ width: 100%;
 	}
 
 	.client-info-container .job-description{
-		margin-left: 5vw;
-		width: 95vw;
+		margin-left: 1em;
+		width: auto;
 	}
 
 	.div-breaker-insert img{

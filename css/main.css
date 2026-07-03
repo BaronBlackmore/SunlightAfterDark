@@ -277,6 +277,12 @@
 	padding-bottom: 2em;
 }
 
+.zp-black-box{
+	background-color: black;
+	color: white;
+	background-image: url("/images/portfolio/zp_black_bg.png")
+}
+
 
 .show{
 	display: flex !important;

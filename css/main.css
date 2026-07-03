@@ -29,7 +29,7 @@
 		line-height: 1;
 	}
 	ol, ul {
-		list-style: none;
+		/*list-style: none;*/
 	}
 	blockquote, q {
 		quotes: none;
@@ -183,7 +183,8 @@
 	}
 
 	ol{
-		padding: 0.5em 0;
+		padding: 0.5em 1em;
+
 	}
 
 	li{

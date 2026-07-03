@@ -496,6 +496,10 @@
 	padding-top: 0.5em;
 }
 
+.zp-bordered-pic-holder{
+	padding: 1.5em;
+}
+
 .portfolo-desc-container .job-description{
 	width: 100%;
 }
@@ -1276,9 +1280,7 @@ width: 100%;
 		padding:0;
 	}
 
-	.zp-bordered-pic-holder{
-	padding: 1.5em;
-	}
+	
 
 	.client-logo{
 		width: 90vw;

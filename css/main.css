@@ -1276,6 +1276,10 @@ width: 100%;
 		padding:0;
 	}
 
+	.zp-bordered-pic-holder{
+	padding: 1.5em;
+	}
+
 	.client-logo{
 		width: 90vw;
 		height: 2.5em;

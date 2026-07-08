@@ -286,7 +286,7 @@
 
 .show{
 	display: flex !important;
-	height: 500px !important;
+	height: 520px !important;
 	padding-bottom: 3em;
 }
 
@@ -437,6 +437,9 @@
 	margin: 0;
 }
 
+.portfolio-img-anchor{
+	width: 50%;
+}
 
 .portfolio-intro{
 	/*background-color: #DE2A7E;*/
@@ -1275,6 +1278,11 @@ width: 100%;
 		width: 100%;
 		height: auto;
 	}
+
+	.portfolio-img-anchor{
+	width: 100%;
+	}
+
 
 	.portfolo-desc-container{
 		padding:0;

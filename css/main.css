@@ -211,9 +211,9 @@
 
 
 	video{
-		width: 100%;
+		width: 100%; 
 		height: auto;
-		padding-bottom: 2em;
+		/*padding-bottom: 2em;*/
 	}
 
 
@@ -1035,11 +1035,13 @@ width: 100%;
 
 .pixel6{
 	background-image: url("/images/portfolio/pixel6.png");
-	width: 394px;
-	height: 838px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	padding: 25px 19px;
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+}
+
+.pixel6 video{
+
 }
 
 

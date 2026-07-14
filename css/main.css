@@ -1032,6 +1032,22 @@ background: linear-gradient(0deg, rgba(0,52,84,1) 20%, rgba(0,69,102,1) 80%);
 width: 100%;
 }
 
+
+.pixel6{
+	background-image: url("/images/portfolio/pixel6.png");
+	width: 394px;
+	height: 838px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+/*-------------------------------------------------------------------*/
+/*--------------------------screen resolution changes----------------*/
+/*-------------------------------------------------------------------*/
+
+
 @media(min-width: 801px) and (max-width: 1080px){
 	.frontpage-col{
 		flex-direction: column;

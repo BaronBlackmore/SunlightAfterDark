@@ -1044,6 +1044,10 @@ width: 100%;
 
 }
 
+.m0-bg{
+	background-image: url("/images/portfolio/m0_sketch_bg.jpg");
+}
+
 
 /*-------------------------------------------------------------------*/
 /*--------------------------screen resolution changes----------------*/
